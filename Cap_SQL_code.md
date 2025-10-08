@@ -190,10 +190,10 @@ Out of Python -->
 
 CREATE TABLE Remainder2008
 AS
-SELECT STATE, CAST(FLOOR((SUM(CapEC_NE_CanRemainder)/CapEC_NE_VotePop)) AS REAL) as "CapEC_NE_CanRemVote", 
-CAST(FLOOR((SUM(CapEC_Full_CanRemainder)/CapEC_Full_VotePop)) AS REAL) as "CapEC_Full_CanRemVote",
-CAST(FLOOR((SUM(UnCapEC_NE_CanRemainder)/UnCapEC_NE_VotePop)) AS REAL) as "UnCapEC_NE_CanRemVote", 
-CAST(FLOOR((SUM(UnCapEC_Full_CanRemainder)/UnCapEC_Full_VotePop)) AS REAL) as "UnCapEC_Full_CanRemVote"
+SELECT STATE, CAST(FLOOR(ROUND(SUM(CapEC_NE_CanRemainder), 5)/ROUND(CapEC_NE_VotePop, 5)) AS REAL) as "CapEC_NE_CanRemVote", 
+CAST(FLOOR(ROUND(SUM(CapEC_Full_CanRemainder), 5)/ROUND(CapEC_Full_VotePop, 5)) AS REAL) as "CapEC_Full_CanRemVote",
+CAST(FLOOR(ROUND(SUM(UnCapEC_NE_CanRemainder), 5)/ROUND(UnCapEC_NE_VotePop, 5)) AS REAL) as "UnCapEC_NE_CanRemVote", 
+CAST(FLOOR(ROUND(SUM(UnCapEC_Full_CanRemainder), 5)/ROUND(UnCapEC_Full_VotePop, 5)) AS REAL) as "UnCapEC_Full_CanRemVote"
 FROM LG_Elect2008
 GROUP BY STATE
 
@@ -202,11 +202,11 @@ GROUP BY STATE
 
 CREATE TABLE Remainder2012
 AS
-SELECT STATE, CAST(FLOOR((SUM(CapEC_NE_CanRemainder)/CapEC_NE_VotePop)) AS REAL) as "CapEC_NE_CanRemVote", 
-CAST(FLOOR((SUM(CapEC_Full_CanRemainder)/CapEC_Full_VotePop)) AS REAL) as "CapEC_Full_CanRemVote",
-CAST(FLOOR((SUM(UnCapEC_NE_CanRemainder)/UnCapEC_NE_VotePop)) AS REAL) as "UnCapEC_NE_CanRemVote", 
-CAST(FLOOR((SUM(UnCapEC_Full_CanRemainder)/UnCapEC_Full_VotePop)) AS REAL) as "UnCapEC_Full_CanRemVote"
-FROM LG_Elect2012
+SELECT STATE, CAST(FLOOR(ROUND(SUM(CapEC_NE_CanRemainder), 5)/ROUND(CapEC_NE_VotePop, 5)) AS REAL) as "CapEC_NE_CanRemVote", 
+CAST(FLOOR(ROUND(SUM(CapEC_Full_CanRemainder), 5)/ROUND(CapEC_Full_VotePop, 5)) AS REAL) as "CapEC_Full_CanRemVote",
+CAST(FLOOR(ROUND(SUM(UnCapEC_NE_CanRemainder), 5)/ROUND(UnCapEC_NE_VotePop, 5)) AS REAL) as "UnCapEC_NE_CanRemVote", 
+CAST(FLOOR(ROUND(SUM(UnCapEC_Full_CanRemainder), 5)/ROUND(UnCapEC_Full_VotePop, 5)) AS REAL) as "UnCapEC_Full_CanRemVote"
+FROM LG_Elect2008
 GROUP BY STATE
 
 
@@ -214,10 +214,10 @@ GROUP BY STATE
 
 CREATE TABLE Remainder2016
 AS
-SELECT STATE, CAST(FLOOR((SUM(CapEC_NE_CanRemainder)/CapEC_NE_VotePop)) AS REAL) as "CapEC_NE_CanRemVote", 
-CAST(FLOOR((SUM(CapEC_Full_CanRemainder)/CapEC_Full_VotePop)) AS REAL) as "CapEC_Full_CanRemVote",
-CAST(FLOOR((SUM(UnCapEC_NE_CanRemainder)/UnCapEC_NE_VotePop)) AS REAL) as "UnCapEC_NE_CanRemVote", 
-CAST(FLOOR((SUM(UnCapEC_Full_CanRemainder)/UnCapEC_Full_VotePop)) AS REAL) as "UnCapEC_Full_CanRemVote"
+SELECT STATE, CAST(FLOOR(ROUND(SUM(CapEC_NE_CanRemainder), 5)/ROUND(CapEC_NE_VotePop, 5)) AS REAL) as "CapEC_NE_CanRemVote", 
+CAST(FLOOR(ROUND(SUM(CapEC_Full_CanRemainder), 5)/ROUND(CapEC_Full_VotePop, 5)) AS REAL) as "CapEC_Full_CanRemVote",
+CAST(FLOOR(ROUND(SUM(UnCapEC_NE_CanRemainder), 5)/ROUND(UnCapEC_NE_VotePop, 5)) AS REAL) as "UnCapEC_NE_CanRemVote", 
+CAST(FLOOR(ROUND(SUM(UnCapEC_Full_CanRemainder), 5)/ROUND(UnCapEC_Full_VotePop, 5)) AS REAL) as "UnCapEC_Full_CanRemVote"
 FROM LG_Elect2016
 GROUP BY STATE
 
@@ -226,10 +226,10 @@ GROUP BY STATE
 
 CREATE TABLE Remainder2020
 AS
-SELECT STATE, CAST(FLOOR((SUM(CapEC_NE_CanRemainder)/CapEC_NE_VotePop)) AS REAL) as "CapEC_NE_CanRemVote", 
-CAST(FLOOR((SUM(CapEC_Full_CanRemainder)/CapEC_Full_VotePop)) AS REAL) as "CapEC_Full_CanRemVote",
-CAST(FLOOR((SUM(UnCapEC_NE_CanRemainder)/UnCapEC_NE_VotePop)) AS REAL) as "UnCapEC_NE_CanRemVote", 
-CAST(FLOOR((SUM(UnCapEC_Full_CanRemainder)/UnCapEC_Full_VotePop)) AS REAL) as "UnCapEC_Full_CanRemVote"
+SELECT STATE, CAST(FLOOR(ROUND(SUM(CapEC_NE_CanRemainder), 5)/ROUND(CapEC_NE_VotePop, 5)) AS REAL) as "CapEC_NE_CanRemVote", 
+CAST(FLOOR(ROUND(SUM(CapEC_Full_CanRemainder), 5)/ROUND(CapEC_Full_VotePop, 5)) AS REAL) as "CapEC_Full_CanRemVote",
+CAST(FLOOR(ROUND(SUM(UnCapEC_NE_CanRemainder), 5)/ROUND(UnCapEC_NE_VotePop, 5)) AS REAL) as "UnCapEC_NE_CanRemVote", 
+CAST(FLOOR(ROUND(SUM(UnCapEC_Full_CanRemainder), 5)/ROUND(UnCapEC_Full_VotePop, 5)) AS REAL) as "UnCapEC_Full_CanRemVote"
 FROM LG_Elect2020
 GROUP BY STATE
 
@@ -546,7 +546,7 @@ FROM Practice
 
 ```SQL
 
--- Adding_UnCapEC_Full_Remainder 2020 Table
+-- Adding_UnCapEC_Full_Remainder 2008 Table
 
 CREATE TABLE Add_UnCapEC_Full_Remainder_2008
 AS
@@ -567,7 +567,7 @@ ELSE 0
 END AS Adding_UnCapEC_Full_Remainder
 FROM Practice
 
--- Adding_UnCapEC_Full_Remainder 2020 Table
+-- Adding_UnCapEC_Full_Remainder 2012 Table
 
 CREATE TABLE Add_UnCapEC_Full_Remainder_2012
 AS
@@ -588,7 +588,7 @@ ELSE 0
 END AS Adding_UnCapEC_Full_Remainder
 FROM Practice
 
--- Adding_UnCapEC_Full_Remainder 2020 Table
+-- Adding_UnCapEC_Full_Remainder 2016 Table
 
 CREATE TABLE Add_UnCapEC_Full_Remainder_2016
 AS
@@ -768,7 +768,18 @@ AND LG_Elect2016.Candidate_Name = All_Remainder_2016.Candidate_Name
 
 -- Added Remainder Table
 
-
+CREATE TABLE After_addRem_2020
+AS
+Select LG_Elect2020.STATE, LG_Elect2020.Candidate_Name, LG_Elect2020.Candidate_Votes, LG_Elect2020.Num_Reps_Capped,
+LG_Elect2020.Num_Reps_Uncapped,
+CAST((LG_Elect2020.CapEC_NE_CanVotes + All_Remainder_2020.CapEC_NE_RemainAdd) AS REAL) AS CapEC_NE_CanVote_ARem,
+CAST((LG_Elect2020.CapEC_Full_CanVotes + All_Remainder_2020.CapEC_Full_RemainAdd) AS REAL) AS CapEC_Full_CanVote_ARem, 
+CAST((LG_Elect2020.UnCapEC_NE_CanVotes + All_Remainder_2020.UnCapEC_NE_RemainAdd) AS REAL) AS UnCapEC_NE_CanVote_ARem, 
+CAST((LG_Elect2020.UnCapEC_Full_CanVotes + All_Remainder_2020.UnCapEC_Full_RemainAdd) AS REAL) AS UnCapEC_Full_CanVote_ARem
+FROM LG_Elect2020
+LEFT JOIN All_Remainder_2020
+ON LG_Elect2020.STATE = All_Remainder_2020.STATE
+AND LG_Elect2020.Candidate_Name = All_Remainder_2020.Candidate_Name
 
 
 ```
