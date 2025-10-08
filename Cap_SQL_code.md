@@ -221,7 +221,6 @@ CAST(FLOOR((SUM(UnCapEC_Full_CanRemainder)/UnCapEC_Full_VotePop)) AS REAL) as "U
 FROM LG_Elect2016
 GROUP BY STATE
 
-GROUP BY STATE
 
 -- Create Remainder Table 2020
 
@@ -654,3 +653,122 @@ INNER JOIN Add_UnCapEC_Full_Remainder_2008
 ON Add_CapEC_NE_Remainder_2008.STATE = Add_UnCapEC_Full_Remainder_2008.STATE
 AND Add_CapEC_NE_Remainder_2008.Candidate_Name = Add_UnCapEC_Full_Remainder_2008.Candidate_Name
 ORDER BY Add_CapEC_NE_Remainder_2008.STATE
+
+-- Create All Remainder Table 2008
+
+CREATE TABLE All_Remainder_2012
+AS
+SELECT Add_CapEC_NE_Remainder_2012.STATE, Add_CapEC_NE_Remainder_2012.Candidate_Name, 
+CAST(Add_CapEC_NE_Remainder_2012.Adding_CapEC_NE_Remainder AS REAL) as "CapEC_NE_RemainAdd",
+CAST(Add_CapEC_Full_Remainder_2012.Adding_CapEC_Full_Remainder AS REAL) AS "CapEC_Full_RemainAdd",
+CAST(Add_UnCapEC_NE_Remainder_2012.Adding_UnCapEC_NE_Remainder AS REAL) AS "UnCapEC_NE_RemainAdd",
+CAST(Add_UnCapEC_Full_Remainder_2012.Adding_UnCapEC_Full_Remainder AS REAL) AS "UnCapEC_Full_RemainAdd"
+FROM Add_CapEC_NE_Remainder_2012
+INNER JOIN Add_CapEC_Full_Remainder_2012
+ON Add_CapEC_NE_Remainder_2012.STATE = Add_CapEC_Full_Remainder_2012.STATE
+AND Add_CapEC_NE_Remainder_2012.Candidate_Name = Add_CapEC_Full_Remainder_2012.Candidate_Name
+INNER JOIN Add_UnCapEC_NE_Remainder_2012
+ON Add_CapEC_NE_Remainder_2012.STATE = Add_UnCapEC_NE_Remainder_2012.STATE
+AND Add_CapEC_NE_Remainder_2012.Candidate_Name = Add_UnCapEC_NE_Remainder_2012.Candidate_Name
+INNER JOIN Add_UnCapEC_Full_Remainder_2012
+ON Add_CapEC_NE_Remainder_2012.STATE = Add_UnCapEC_Full_Remainder_2012.STATE
+AND Add_CapEC_NE_Remainder_2012.Candidate_Name = Add_UnCapEC_Full_Remainder_2012.Candidate_Name
+ORDER BY Add_CapEC_NE_Remainder_2012.STATE
+
+-- Create All Remainder Table 2008
+
+CREATE TABLE All_Remainder_2016
+AS
+SELECT Add_CapEC_NE_Remainder_2016.STATE, Add_CapEC_NE_Remainder_2016.Candidate_Name, 
+CAST(Add_CapEC_NE_Remainder_2016.Adding_CapEC_NE_Remainder AS REAL) as "CapEC_NE_RemainAdd",
+CAST(Add_CapEC_Full_Remainder_2016.Adding_CapEC_Full_Remainder AS REAL) AS "CapEC_Full_RemainAdd",
+CAST(Add_UnCapEC_NE_Remainder_2016.Adding_UnCapEC_NE_Remainder AS REAL) AS "UnCapEC_NE_RemainAdd",
+CAST(Add_UnCapEC_Full_Remainder_2016.Adding_UnCapEC_Full_Remainder AS REAL) AS "UnCapEC_Full_RemainAdd"
+FROM Add_CapEC_NE_Remainder_2016
+INNER JOIN Add_CapEC_Full_Remainder_2016
+ON Add_CapEC_NE_Remainder_2016.STATE = Add_CapEC_Full_Remainder_2016.STATE
+AND Add_CapEC_NE_Remainder_2016.Candidate_Name = Add_CapEC_Full_Remainder_2016.Candidate_Name
+INNER JOIN Add_UnCapEC_NE_Remainder_2016
+ON Add_CapEC_NE_Remainder_2016.STATE = Add_UnCapEC_NE_Remainder_2016.STATE
+AND Add_CapEC_NE_Remainder_2016.Candidate_Name = Add_UnCapEC_NE_Remainder_2016.Candidate_Name
+INNER JOIN Add_UnCapEC_Full_Remainder_2016
+ON Add_CapEC_NE_Remainder_2016.STATE = Add_UnCapEC_Full_Remainder_2016.STATE
+AND Add_CapEC_NE_Remainder_2016.Candidate_Name = Add_UnCapEC_Full_Remainder_2016.Candidate_Name
+ORDER BY Add_CapEC_NE_Remainder_2016.STATE
+
+-- Create All Remainder Table 2008
+
+CREATE TABLE All_Remainder_2020
+AS
+SELECT Add_CapEC_NE_Remainder_2020.STATE, Add_CapEC_NE_Remainder_2020.Candidate_Name, 
+CAST(Add_CapEC_NE_Remainder_2020.Adding_CapEC_NE_Remainder AS REAL) as "CapEC_NE_RemainAdd",
+CAST(Add_CapEC_Full_Remainder_2020.Adding_CapEC_Full_Remainder AS REAL) AS "CapEC_Full_RemainAdd",
+CAST(Add_UnCapEC_NE_Remainder_2020.Adding_UnCapEC_NE_Remainder AS REAL) AS "UnCapEC_NE_RemainAdd",
+CAST(Add_UnCapEC_Full_Remainder_2020.Adding_UnCapEC_Full_Remainder AS REAL) AS "UnCapEC_Full_RemainAdd"
+FROM Add_CapEC_NE_Remainder_2020
+INNER JOIN Add_CapEC_Full_Remainder_2020
+ON Add_CapEC_NE_Remainder_2020.STATE = Add_CapEC_Full_Remainder_2020.STATE
+AND Add_CapEC_NE_Remainder_2020.Candidate_Name = Add_CapEC_Full_Remainder_2020.Candidate_Name
+INNER JOIN Add_UnCapEC_NE_Remainder_2020
+ON Add_CapEC_NE_Remainder_2020.STATE = Add_UnCapEC_NE_Remainder_2020.STATE
+AND Add_CapEC_NE_Remainder_2020.Candidate_Name = Add_UnCapEC_NE_Remainder_2020.Candidate_Name
+INNER JOIN Add_UnCapEC_Full_Remainder_2020
+ON Add_CapEC_NE_Remainder_2020.STATE = Add_UnCapEC_Full_Remainder_2020.STATE
+AND Add_CapEC_NE_Remainder_2020.Candidate_Name = Add_UnCapEC_Full_Remainder_2020.Candidate_Name
+ORDER BY Add_CapEC_NE_Remainder_2020.STATE
+
+```
+
+```SQL
+
+-- Added Remainder Table 2008
+
+CREATE TABLE After_addRem_2008
+AS
+Select LG_Elect2008.STATE, LG_Elect2008.Candidate_Name, LG_Elect2008.Candidate_Votes, LG_Elect2008.Num_Reps_Capped,
+LG_Elect2008.Num_Reps_Uncapped,
+CAST((LG_Elect2008.CapEC_NE_CanVotes + All_Remainder_2008.CapEC_NE_RemainAdd) AS REAL) AS CapEC_NE_CanVote_ARem,
+CAST((LG_Elect2008.CapEC_Full_CanVotes + All_Remainder_2008.CapEC_Full_RemainAdd) AS REAL) AS CapEC_Full_CanVote_ARem, 
+CAST((LG_Elect2008.UnCapEC_NE_CanVotes + All_Remainder_2008.UnCapEC_NE_RemainAdd) AS REAL) AS UnCapEC_NE_CanVote_ARem, 
+CAST((LG_Elect2008.UnCapEC_Full_CanVotes + All_Remainder_2008.UnCapEC_Full_RemainAdd) AS REAL) AS UnCapEC_Full_CanVote_ARem
+FROM LG_Elect2008
+LEFT JOIN All_Remainder_2008
+ON LG_Elect2008.STATE = All_Remainder_2008.STATE
+AND LG_Elect2008.Candidate_Name = All_Remainder_2008.Candidate_Name
+
+-- Added Remainder Table 2012
+
+CREATE TABLE After_addRem_2012
+AS
+Select LG_Elect2012.STATE, LG_Elect2012.Candidate_Name, LG_Elect2012.Candidate_Votes, LG_Elect2012.Num_Reps_Capped,
+LG_Elect2012.Num_Reps_Uncapped,
+CAST((LG_Elect2012.CapEC_NE_CanVotes + All_Remainder_2012.CapEC_NE_RemainAdd) AS REAL) AS CapEC_NE_CanVote_ARem,
+CAST((LG_Elect2012.CapEC_Full_CanVotes + All_Remainder_2012.CapEC_Full_RemainAdd) AS REAL) AS CapEC_Full_CanVote_ARem, 
+CAST((LG_Elect2012.UnCapEC_NE_CanVotes + All_Remainder_2012.UnCapEC_NE_RemainAdd) AS REAL) AS UnCapEC_NE_CanVote_ARem, 
+CAST((LG_Elect2012.UnCapEC_Full_CanVotes + All_Remainder_2012.UnCapEC_Full_RemainAdd) AS REAL) AS UnCapEC_Full_CanVote_ARem
+FROM LG_Elect2012
+LEFT JOIN All_Remainder_2012
+ON LG_Elect2012.STATE = All_Remainder_2012.STATE
+AND LG_Elect2012.Candidate_Name = All_Remainder_2012.Candidate_Name
+
+-- Added Remainder Table
+
+CREATE TABLE After_addRem_2016
+AS
+Select LG_Elect2016.STATE, LG_Elect2016.Candidate_Name, LG_Elect2016.Candidate_Votes, LG_Elect2016.Num_Reps_Capped,
+LG_Elect2016.Num_Reps_Uncapped,
+CAST((LG_Elect2016.CapEC_NE_CanVotes + All_Remainder_2016.CapEC_NE_RemainAdd) AS REAL) AS CapEC_NE_CanVote_ARem,
+CAST((LG_Elect2016.CapEC_Full_CanVotes + All_Remainder_2016.CapEC_Full_RemainAdd) AS REAL) AS CapEC_Full_CanVote_ARem, 
+CAST((LG_Elect2016.UnCapEC_NE_CanVotes + All_Remainder_2016.UnCapEC_NE_RemainAdd) AS REAL) AS UnCapEC_NE_CanVote_ARem, 
+CAST((LG_Elect2016.UnCapEC_Full_CanVotes + All_Remainder_2016.UnCapEC_Full_RemainAdd) AS REAL) AS UnCapEC_Full_CanVote_ARem
+FROM LG_Elect2016
+LEFT JOIN All_Remainder_2016
+ON LG_Elect2016.STATE = All_Remainder_2016.STATE
+AND LG_Elect2016.Candidate_Name = All_Remainder_2016.Candidate_Name
+
+-- Added Remainder Table
+
+
+
+
+```
