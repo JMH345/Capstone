@@ -190,10 +190,10 @@ Out of Python -->
 
 CREATE TABLE Remainder2008
 AS
-SELECT STATE, CAST(FLOOR(ROUND(SUM(CapEC_NE_CanRemainder), 5)/ROUND(CapEC_NE_VotePop, 5)) AS REAL) as "CapEC_NE_CanRemVote", 
-CAST(FLOOR(ROUND(SUM(CapEC_Full_CanRemainder), 5)/ROUND(CapEC_Full_VotePop, 5)) AS REAL) as "CapEC_Full_CanRemVote",
-CAST(FLOOR(ROUND(SUM(UnCapEC_NE_CanRemainder), 5)/ROUND(UnCapEC_NE_VotePop, 5)) AS REAL) as "UnCapEC_NE_CanRemVote", 
-CAST(FLOOR(ROUND(SUM(UnCapEC_Full_CanRemainder), 5)/ROUND(UnCapEC_Full_VotePop, 5)) AS REAL) as "UnCapEC_Full_CanRemVote"
+SELECT STATE, CAST(FLOOR(SUM(CapEC_NE_CanRemainder)/FLOOR(CapEC_NE_VotePop)) AS REAL) as "CapEC_NE_CanRemVote", 
+CAST(FLOOR(SUM(CapEC_Full_CanRemainder)/FLOOR(CapEC_Full_VotePop)) AS REAL) as "CapEC_Full_CanRemVote",
+CAST(FLOOR(SUM(UnCapEC_NE_CanRemainder)/FLOOR(UnCapEC_NE_VotePop)) AS REAL) as "UnCapEC_NE_CanRemVote", 
+CAST(FLOOR(SUM(UnCapEC_Full_CanRemainder)/FLOOR(UnCapEC_Full_VotePop)) AS REAL) as "UnCapEC_Full_CanRemVote"
 FROM LG_Elect2008
 GROUP BY STATE
 
@@ -202,11 +202,11 @@ GROUP BY STATE
 
 CREATE TABLE Remainder2012
 AS
-SELECT STATE, CAST(FLOOR(ROUND(SUM(CapEC_NE_CanRemainder), 5)/ROUND(CapEC_NE_VotePop, 5)) AS REAL) as "CapEC_NE_CanRemVote", 
-CAST(FLOOR(ROUND(SUM(CapEC_Full_CanRemainder), 5)/ROUND(CapEC_Full_VotePop, 5)) AS REAL) as "CapEC_Full_CanRemVote",
-CAST(FLOOR(ROUND(SUM(UnCapEC_NE_CanRemainder), 5)/ROUND(UnCapEC_NE_VotePop, 5)) AS REAL) as "UnCapEC_NE_CanRemVote", 
-CAST(FLOOR(ROUND(SUM(UnCapEC_Full_CanRemainder), 5)/ROUND(UnCapEC_Full_VotePop, 5)) AS REAL) as "UnCapEC_Full_CanRemVote"
-FROM LG_Elect2008
+SELECT STATE, CAST(FLOOR(SUM(CapEC_NE_CanRemainder)/FLOOR(CapEC_NE_VotePop)) AS REAL) as "CapEC_NE_CanRemVote", 
+CAST(FLOOR(SUM(CapEC_Full_CanRemainder)/FLOOR(CapEC_Full_VotePop)) AS REAL) as "CapEC_Full_CanRemVote",
+CAST(FLOOR(SUM(UnCapEC_NE_CanRemainder)/FLOOR(UnCapEC_NE_VotePop)) AS REAL) as "UnCapEC_NE_CanRemVote", 
+CAST(FLOOR(SUM(UnCapEC_Full_CanRemainder)/FLOOR(UnCapEC_Full_VotePop)) AS REAL) as "UnCapEC_Full_CanRemVote"
+FROM LG_Elect2012
 GROUP BY STATE
 
 
@@ -214,10 +214,10 @@ GROUP BY STATE
 
 CREATE TABLE Remainder2016
 AS
-SELECT STATE, CAST(FLOOR(ROUND(SUM(CapEC_NE_CanRemainder), 5)/ROUND(CapEC_NE_VotePop, 5)) AS REAL) as "CapEC_NE_CanRemVote", 
-CAST(FLOOR(ROUND(SUM(CapEC_Full_CanRemainder), 5)/ROUND(CapEC_Full_VotePop, 5)) AS REAL) as "CapEC_Full_CanRemVote",
-CAST(FLOOR(ROUND(SUM(UnCapEC_NE_CanRemainder), 5)/ROUND(UnCapEC_NE_VotePop, 5)) AS REAL) as "UnCapEC_NE_CanRemVote", 
-CAST(FLOOR(ROUND(SUM(UnCapEC_Full_CanRemainder), 5)/ROUND(UnCapEC_Full_VotePop, 5)) AS REAL) as "UnCapEC_Full_CanRemVote"
+SELECT STATE, CAST(FLOOR(SUM(CapEC_NE_CanRemainder)/FLOOR(CapEC_NE_VotePop)) AS REAL) as "CapEC_NE_CanRemVote", 
+CAST(FLOOR(SUM(CapEC_Full_CanRemainder)/FLOOR(CapEC_Full_VotePop)) AS REAL) as "CapEC_Full_CanRemVote",
+CAST(FLOOR(SUM(UnCapEC_NE_CanRemainder)/FLOOR(UnCapEC_NE_VotePop)) AS REAL) as "UnCapEC_NE_CanRemVote", 
+CAST(FLOOR(SUM(UnCapEC_Full_CanRemainder)/FLOOR(UnCapEC_Full_VotePop)) AS REAL) as "UnCapEC_Full_CanRemVote"
 FROM LG_Elect2016
 GROUP BY STATE
 
@@ -226,10 +226,10 @@ GROUP BY STATE
 
 CREATE TABLE Remainder2020
 AS
-SELECT STATE, CAST(FLOOR(ROUND(SUM(CapEC_NE_CanRemainder), 5)/ROUND(CapEC_NE_VotePop, 5)) AS REAL) as "CapEC_NE_CanRemVote", 
-CAST(FLOOR(ROUND(SUM(CapEC_Full_CanRemainder), 5)/ROUND(CapEC_Full_VotePop, 5)) AS REAL) as "CapEC_Full_CanRemVote",
-CAST(FLOOR(ROUND(SUM(UnCapEC_NE_CanRemainder), 5)/ROUND(UnCapEC_NE_VotePop, 5)) AS REAL) as "UnCapEC_NE_CanRemVote", 
-CAST(FLOOR(ROUND(SUM(UnCapEC_Full_CanRemainder), 5)/ROUND(UnCapEC_Full_VotePop, 5)) AS REAL) as "UnCapEC_Full_CanRemVote"
+SELECT STATE, CAST(FLOOR(SUM(CapEC_NE_CanRemainder)/FLOOR(CapEC_NE_VotePop)) AS REAL) as "CapEC_NE_CanRemVote", 
+CAST(FLOOR(SUM(CapEC_Full_CanRemainder)/FLOOR(CapEC_Full_VotePop)) AS REAL) as "CapEC_Full_CanRemVote",
+CAST(FLOOR(SUM(UnCapEC_NE_CanRemainder)/FLOOR(UnCapEC_NE_VotePop)) AS REAL) as "UnCapEC_NE_CanRemVote", 
+CAST(FLOOR(SUM(UnCapEC_Full_CanRemainder)/FLOOR(UnCapEC_Full_VotePop)) AS REAL) as "UnCapEC_Full_CanRemVote"
 FROM LG_Elect2020
 GROUP BY STATE
 
@@ -654,7 +654,7 @@ ON Add_CapEC_NE_Remainder_2008.STATE = Add_UnCapEC_Full_Remainder_2008.STATE
 AND Add_CapEC_NE_Remainder_2008.Candidate_Name = Add_UnCapEC_Full_Remainder_2008.Candidate_Name
 ORDER BY Add_CapEC_NE_Remainder_2008.STATE
 
--- Create All Remainder Table 2008
+-- Create All Remainder Table 2012
 
 CREATE TABLE All_Remainder_2012
 AS
@@ -780,6 +780,161 @@ FROM LG_Elect2020
 LEFT JOIN All_Remainder_2020
 ON LG_Elect2020.STATE = All_Remainder_2020.STATE
 AND LG_Elect2020.Candidate_Name = All_Remainder_2020.Candidate_Name
+
+
+```
+
+```SQL
+
+-- Create Sen_Count2008
+
+CREATE TABLE SenCount2008
+AS
+SELECT *,
+CAST((Num_Reps_Capped + 2) AS REAL) AS CapEC_Standard,
+CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapEC_Standard,
+CAST((2) AS REAL) AS SenNum
+FROM After_addRem_2008
+GROUP BY STATE
+ORDER BY Candidate_Votes DESC
+
+-- Create Sen_Count2012
+
+CREATE TABLE SenCount2012
+AS
+SELECT *,
+CAST((Num_Reps_Capped + 2) AS REAL) AS CapEC_Standard,
+CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapEC_Standard,
+CAST((2) AS REAL) AS SenNum
+FROM After_addRem_2012
+GROUP BY STATE
+ORDER BY Candidate_Votes DESC
+
+-- Create Sen_Count2016
+
+CREATE TABLE SenCount2016
+AS
+SELECT *,
+CAST((Num_Reps_Capped + 2) AS REAL) AS CapEC_Standard,
+CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapEC_Standard,
+CAST((2) AS REAL) AS SenNum
+FROM After_addRem_2016
+GROUP BY STATE
+ORDER BY Candidate_Votes DESC
+
+-- Create Sen_Count2020
+
+CREATE TABLE SenCount2020
+AS
+SELECT *,
+CAST((Num_Reps_Capped + 2) AS REAL) AS CapEC_Standard,
+CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapEC_Standard,
+CAST((2) AS REAL) AS SenNum
+FROM After_addRem_2020
+GROUP BY STATE
+ORDER BY Candidate_Votes DESC
+
+
+
+```
+
+```SQL
+
+-- Create After_AddSen_2008
+
+CREATE TABLE After_AddSen_2008
+AS
+SELECT After_addRem_2008.*, SenCount2008.CapEC_Standard, SenCount2008.UnCapEC_Standard, SenCount2008.SenNum
+FROM After_addRem_2008
+LEFT JOIN SenCount2008
+ON After_addRem_2008.STATE = SenCount2008.STATE
+AND After_addRem_2008.Candidate_Name = SenCount2008.Candidate_Name
+
+-- Create After_AddSen_2012
+
+CREATE TABLE After_AddSen_2012
+AS
+SELECT After_addRem_2012.*, SenCount2012.CapEC_Standard, SenCount2012.UnCapEC_Standard, SenCount2012.SenNum
+FROM After_addRem_2012
+LEFT JOIN SenCount2012
+ON After_addRem_2012.STATE = SenCount2012.STATE
+AND After_addRem_2012.Candidate_Name = SenCount2012.Candidate_Name
+
+-- Create After_AddSen_2016
+
+CREATE TABLE After_AddSen_2016
+AS
+SELECT After_addRem_2016.*, SenCount2016.CapEC_Standard, SenCount2016.UnCapEC_Standard, SenCount2016.SenNum
+FROM After_addRem_2016
+LEFT JOIN SenCount2016
+ON After_addRem_2016.STATE = SenCount2016.STATE
+AND After_addRem_2016.Candidate_Name = SenCount2016.Candidate_Name
+
+-- Create After_AddSen_2020
+
+CREATE TABLE After_AddSen_2020
+AS
+SELECT After_addRem_2020.*, SenCount2020.CapEC_Standard, SenCount2020.UnCapEC_Standard, SenCount2020.SenNum
+FROM After_addRem_2020
+LEFT JOIN SenCount2020
+ON After_addRem_2020.STATE = SenCount2020.STATE
+AND After_addRem_2020.Candidate_Name = SenCount2020.Candidate_Name
+
+```
+```SQL
+-- Remove Nulls from After_AddSen_2008
+
+UPDATE After_AddSen_2008
+SET
+    CapEC_Standard  = COALESCE(CapEC_Standard, 0),
+    UnCapEC_Standard = COALESCE(UnCapEC_Standard, 0),
+    SenNum = COALESCE(SenNum, 0)
+WHERE
+    CapEC_Standard IS NULL OR UnCapEC_Standard IS NULL OR SenNum IS NULL;
+
+-- Remove Nulls from After_AddSen_2012
+
+UPDATE After_AddSen_2012
+SET
+    CapEC_Standard  = COALESCE(CapEC_Standard, 0),
+    UnCapEC_Standard = COALESCE(UnCapEC_Standard, 0),
+    SenNum = COALESCE(SenNum, 0)
+WHERE
+    CapEC_Standard IS NULL OR UnCapEC_Standard IS NULL OR SenNum IS NULL;
+
+
+-- Remove Nulls from After_AddSen_2016
+
+UPDATE After_AddSen_2016
+SET
+    CapEC_Standard  = COALESCE(CapEC_Standard, 0),
+    UnCapEC_Standard = COALESCE(UnCapEC_Standard, 0),
+    SenNum = COALESCE(SenNum, 0)
+WHERE
+    CapEC_Standard IS NULL OR UnCapEC_Standard IS NULL OR SenNum IS NULL;
+
+-- Remove Nulls from After_AddSen_2020
+
+UPDATE After_AddSen_2020
+SET
+    CapEC_Standard  = COALESCE(CapEC_Standard, 0),
+    UnCapEC_Standard = COALESCE(UnCapEC_Standard, 0),
+    SenNum = COALESCE(SenNum, 0)
+WHERE
+    CapEC_Standard IS NULL OR UnCapEC_Standard IS NULL OR SenNum IS NULL;
+
+```
+```SQL
+
+
+
+
+
+
+
+
+
+
 
 
 ```
