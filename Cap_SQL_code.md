@@ -153,28 +153,28 @@ WHERE `LAST NAME;  FIRST` IS NOT NULL
 -- Data to be transferred 2008
 
 CREATE TABLE Transfer_table_2008 AS
-SELECT `STATE`, `LAST NAME;  FIRST` AS "Candidate_Name", `GENERAL RESULTS` AS "Candidate_Votes",
+SELECT `STATE`, `FEC ID` AS "FEC_ID", `LAST NAME;  FIRST` AS "Candidate_Name", `GENERAL RESULTS` AS "Candidate_Votes",
 `Apportionment population` AS "Apportionment_pop",`"` AS "Num_Reps_Capped", VOTE_TOTALS AS "State_Vote_Total"
 FROM Cleaned_Elect_2008
 
 -- Data to be transferred 2012
 
 CREATE TABLE Transfer_table_2012 AS
-SELECT `STATE`, `LAST NAME;  FIRST` AS "Candidate_Name", `GENERAL RESULTS` AS "Candidate_Votes",
+SELECT `STATE`, `FEC ID` AS "FEC_ID", `LAST NAME;  FIRST` AS "Candidate_Name", `GENERAL RESULTS` AS "Candidate_Votes",
 `2010: Apportionment population` AS "Apportionment_pop",`"2010:` AS "Num_Reps_Capped", VOTE_TOTALS AS "State_Vote_Total"
 FROM Cleaned_Elect_2012
 
 -- Data to be transferred 2016
 
 CREATE TABLE Transfer_table_2016 AS
-SELECT `STATE`, `LAST NAME;  FIRST` AS "Candidate_Name", `GENERAL RESULTS` AS "Candidate_Votes",
+SELECT `STATE`, `FEC ID` AS "FEC_ID", `LAST NAME;  FIRST` AS "Candidate_Name", `GENERAL RESULTS` AS "Candidate_Votes",
 `2010: Apportionment population` AS "Apportionment_pop",`"2010:` AS "Num_Reps_Capped", VOTE_TOTALS AS "State_Vote_Total"
 FROM Cleaned_Elect_2016
 
 -- Data to be transferred 2020
 
 CREATE TABLE Transfer_table_2020 AS
-SELECT `STATE`, `LAST NAME;  FIRST` AS "Candidate_Name", `GENERAL RESULTS` AS "Candidate_Votes",
+SELECT `STATE`, `FEC ID` AS "FEC_ID", `LAST NAME;  FIRST` AS "Candidate_Name", `GENERAL RESULTS` AS "Candidate_Votes",
 `2010: Apportionment population` AS "Apportionment_pop",`"2010:` AS "Num_Reps_Capped", VOTE_TOTALS AS "State_Vote_Total"
 FROM Cleaned_Elect_2020
 
@@ -725,7 +725,7 @@ ORDER BY Add_CapEC_NE_Remainder_2020.STATE
 
 CREATE TABLE After_addRem_2008
 AS
-Select LG_Elect2008.STATE, LG_Elect2008.Candidate_Name, LG_Elect2008.Candidate_Votes, LG_Elect2008.Num_Reps_Capped,
+Select LG_Elect2008.STATE, LG_Elect2008.FEC_ID, LG_Elect2008.Candidate_Name, LG_Elect2008.Candidate_Votes, LG_Elect2008.Num_Reps_Capped,
 LG_Elect2008.Num_Reps_Uncapped,
 CAST((LG_Elect2008.CapEC_NE_CanVotes + All_Remainder_2008.CapEC_NE_RemainAdd) AS REAL) AS CapEC_NE_CanVote_ARem,
 CAST((LG_Elect2008.CapEC_Full_CanVotes + All_Remainder_2008.CapEC_Full_RemainAdd) AS REAL) AS CapEC_Full_CanVote_ARem, 
@@ -740,7 +740,7 @@ AND LG_Elect2008.Candidate_Name = All_Remainder_2008.Candidate_Name
 
 CREATE TABLE After_addRem_2012
 AS
-Select LG_Elect2012.STATE, LG_Elect2012.Candidate_Name, LG_Elect2012.Candidate_Votes, LG_Elect2012.Num_Reps_Capped,
+Select LG_Elect2012.STATE, LG_Elect2012.FEC_ID, LG_Elect2012.Candidate_Name, LG_Elect2012.Candidate_Votes, LG_Elect2012.Num_Reps_Capped,
 LG_Elect2012.Num_Reps_Uncapped,
 CAST((LG_Elect2012.CapEC_NE_CanVotes + All_Remainder_2012.CapEC_NE_RemainAdd) AS REAL) AS CapEC_NE_CanVote_ARem,
 CAST((LG_Elect2012.CapEC_Full_CanVotes + All_Remainder_2012.CapEC_Full_RemainAdd) AS REAL) AS CapEC_Full_CanVote_ARem, 
@@ -755,7 +755,7 @@ AND LG_Elect2012.Candidate_Name = All_Remainder_2012.Candidate_Name
 
 CREATE TABLE After_addRem_2016
 AS
-Select LG_Elect2016.STATE, LG_Elect2016.Candidate_Name, LG_Elect2016.Candidate_Votes, LG_Elect2016.Num_Reps_Capped,
+Select LG_Elect2016.STATE, LG_Elect2016.FEC_ID, LG_Elect2016.Candidate_Name, LG_Elect2016.Candidate_Votes, LG_Elect2016.Num_Reps_Capped,
 LG_Elect2016.Num_Reps_Uncapped,
 CAST((LG_Elect2016.CapEC_NE_CanVotes + All_Remainder_2016.CapEC_NE_RemainAdd) AS REAL) AS CapEC_NE_CanVote_ARem,
 CAST((LG_Elect2016.CapEC_Full_CanVotes + All_Remainder_2016.CapEC_Full_RemainAdd) AS REAL) AS CapEC_Full_CanVote_ARem, 
@@ -770,7 +770,7 @@ AND LG_Elect2016.Candidate_Name = All_Remainder_2016.Candidate_Name
 
 CREATE TABLE After_addRem_2020
 AS
-Select LG_Elect2020.STATE, LG_Elect2020.Candidate_Name, LG_Elect2020.Candidate_Votes, LG_Elect2020.Num_Reps_Capped,
+Select LG_Elect2020.STATE, LG_Elect2020.FEC_ID, LG_Elect2020.Candidate_Name, LG_Elect2020.Candidate_Votes, LG_Elect2020.Num_Reps_Capped,
 LG_Elect2020.Num_Reps_Uncapped,
 CAST((LG_Elect2020.CapEC_NE_CanVotes + All_Remainder_2020.CapEC_NE_RemainAdd) AS REAL) AS CapEC_NE_CanVote_ARem,
 CAST((LG_Elect2020.CapEC_Full_CanVotes + All_Remainder_2020.CapEC_Full_RemainAdd) AS REAL) AS CapEC_Full_CanVote_ARem, 
@@ -930,7 +930,7 @@ WHERE
 
 CREATE TABLE Total2008
 AS
-SELECT STATE, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
+SELECT STATE, FEC_ID, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
 CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapped_Num_State_EC_Votes,
 CapEC_Standard AS Capped_EC_Standard,
 CAST((CapEC_NE_CanVote_ARem + SenNum) AS REAL) AS Capped_EC_NE_Candidate_Vote, 
@@ -945,7 +945,7 @@ FROM After_AddSen_2008
 
 CREATE TABLE Total2012
 AS
-SELECT STATE, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
+SELECT STATE, FEC_ID, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
 CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapped_Num_State_EC_Votes,
 CapEC_Standard AS Capped_EC_Standard,
 CAST((CapEC_NE_CanVote_ARem + SenNum) AS REAL) AS Capped_EC_NE_Candidate_Vote, 
@@ -959,7 +959,7 @@ FROM After_AddSen_2012
 
 CREATE TABLE Total2016
 AS
-SELECT STATE, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
+SELECT STATE, FEC_ID, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
 CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapped_Num_State_EC_Votes,
 CapEC_Standard AS Capped_EC_Standard,
 CAST((CapEC_NE_CanVote_ARem + SenNum) AS REAL) AS Capped_EC_NE_Candidate_Vote, 
@@ -973,7 +973,7 @@ FROM After_AddSen_2016
 
 CREATE TABLE Total2020
 AS
-SELECT STATE, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
+SELECT STATE, FEC_ID, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
 CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapped_Num_State_EC_Votes,
 CapEC_Standard AS Capped_EC_Standard,
 CAST((CapEC_NE_CanVote_ARem + SenNum) AS REAL) AS Capped_EC_NE_Candidate_Vote, 

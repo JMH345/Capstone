@@ -1,0 +1,827 @@
+,STATE,FEC_ID,Candidate_Name,Capped_Num_State_EC_Votes,UnCapped_Num_State_EC_Votes,Capped_EC_Standard,Capped_EC_NE_Candidate_Vote,Capped_EC_Full_Candidate_Vote,UnCapped_EC_Standard,UnCapped_EC_NE_Candidate_Vote,UnCapped_EC_Full_Candidate_Vote
+0,Alabama,P80001571,Trump; Donald J.,9.0,162.0,9.0,6.0,6.0,162.0,101.0,100.0
+1,Alabama,P00003392,Clinton; Hillary,9.0,162.0,0.0,3.0,3.0,0.0,55.0,56.0
+2,Alabama,P20002671,Johnson; Gary,9.0,162.0,0.0,0.0,0.0,0.0,3.0,3.0
+3,Alabama,n/a,Scattered;,9.0,162.0,0.0,0.0,0.0,0.0,2.0,2.0
+4,Alabama,P20003984,Stein; Jill,9.0,162.0,0.0,0.0,0.0,0.0,1.0,1.0
+5,Alaska,P80001571,Trump; Donald J.,3.0,26.0,3.0,3.0,2.0,26.0,14.0,13.0
+6,Alaska,P00003392,Clinton; Hillary,3.0,26.0,0.0,0.0,1.0,0.0,9.0,10.0
+7,Alaska,P20002671,Johnson; Gary,3.0,26.0,0.0,0.0,0.0,0.0,1.0,2.0
+8,Alaska,n/a,Scattered,3.0,26.0,0.0,0.0,0.0,0.0,1.0,1.0
+9,Alaska,P20003984,Stein; Jill,3.0,26.0,0.0,0.0,0.0,0.0,1.0,0.0
+10,Alaska,P60021102,Castle; Darrell L.,3.0,26.0,0.0,0.0,0.0,0.0,0.0,0.0
+11,Alaska,P60016342,De La Fuente; Roque,3.0,26.0,0.0,0.0,0.0,0.0,0.0,0.0
+12,Arizona,P80001571,Trump; Donald J.,11.0,215.0,11.0,7.0,5.0,215.0,106.0,105.0
+13,Arizona,P00003392,Clinton; Hillary,11.0,215.0,0.0,4.0,5.0,0.0,96.0,97.0
+14,Arizona,P20002671,Johnson; Gary,11.0,215.0,0.0,0.0,1.0,0.0,9.0,9.0
+15,Arizona,P20003984,Stein; Jill,11.0,215.0,0.0,0.0,0.0,0.0,3.0,3.0
+16,Arizona,P60022654,McMullin; Evan,11.0,215.0,0.0,0.0,0.0,0.0,1.0,1.0
+17,Arizona,P60021102,Castle; Darrell,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+18,Arizona,P20005260,Hoefling; Tom,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+19,Arizona,P60016623,Smith; Mike,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+20,Arizona,P60020757,Buchanan; Robert L.,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+21,Arizona,P20004511,Kotlikoff; Laurence,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+22,Arizona,P80000268,Carter; Willie Felix,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+23,Arizona,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+24,Arizona,P60023322,In-Albon; Mitchell,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+25,Arizona,P60018249,Maldonado; Joseph,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+26,Arizona,P60005303,Fox; Cherunda,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+27,Arizona,P20002630,"""""""Tittle; Sheila """"""""Samm""""""""""""""",11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+28,Arizona,n/a,Hartnell; Ben,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+29,Arizona,n/a,Schoenke; Marshall,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+30,Arizona,P60021631,Steinacker; Delano,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+31,Arizona,n/a,Corsetti; Michael,11.0,215.0,0.0,0.0,0.0,0.0,0.0,0.0
+32,Arkansas,P80001571,Trump; Donald J.,6.0,99.0,6.0,5.0,4.0,99.0,61.0,60.0
+33,Arkansas,P00003392,Clinton; Hillary,6.0,99.0,0.0,1.0,2.0,0.0,33.0,33.0
+34,Arkansas,P20002671,Johnson; Gary,6.0,99.0,0.0,0.0,0.0,0.0,3.0,3.0
+35,Arkansas,P60022654,McMullin; Evan,6.0,99.0,0.0,0.0,0.0,0.0,1.0,1.0
+36,Arkansas,P20003984,Stein; Jill,6.0,99.0,0.0,0.0,0.0,0.0,1.0,1.0
+37,Arkansas,P60017340,Hedges; Jim,6.0,99.0,0.0,0.0,0.0,0.0,0.0,1.0
+38,Arkansas,P60021102,Castle; Darrell L.,6.0,99.0,0.0,0.0,0.0,0.0,0.0,0.0
+39,Arkansas,P60005808,Kahn; Lynn S.,6.0,99.0,0.0,0.0,0.0,0.0,0.0,0.0
+40,California,P00003392,Clinton; Hillary,55.0,1246.0,55.0,35.0,34.0,1246.0,770.0,769.0
+41,California,P80001571,Trump; Donald J.,55.0,1246.0,0.0,17.0,18.0,0.0,393.0,394.0
+42,California,P20002671,Johnson; Gary,55.0,1246.0,0.0,2.0,2.0,0.0,42.0,42.0
+43,California,P20003984,Stein; Jill,55.0,1246.0,0.0,1.0,1.0,0.0,24.0,25.0
+44,California,P60007168,"""""""Sanders; Bernard """"""""Bernie""""""""""""""",55.0,1246.0,0.0,0.0,0.0,0.0,7.0,7.0
+45,California,P80005572,La Riva; Gloria Estela,55.0,1246.0,0.0,0.0,0.0,0.0,6.0,6.0
+46,California,P60022654,McMullin; Evan,55.0,1246.0,0.0,0.0,0.0,0.0,4.0,3.0
+47,California,P60022787,Maturen; Mike,55.0,1246.0,0.0,0.0,0.0,0.0,0.0,0.0
+48,California,P20004511,Kotlikoff; Laurence,55.0,1246.0,0.0,0.0,0.0,0.0,0.0,0.0
+49,California,P20004677,White; Jerry,55.0,1246.0,0.0,0.0,0.0,0.0,0.0,0.0
+50,Colorado,P00003392,Clinton; Hillary,9.0,170.0,9.0,6.0,4.0,170.0,83.0,82.0
+51,Colorado,P80001571,Trump; Donald J.,9.0,170.0,0.0,3.0,4.0,0.0,73.0,74.0
+52,Colorado,P20002671,Johnson; Gary,9.0,170.0,0.0,0.0,1.0,0.0,9.0,9.0
+53,Colorado,P20003984,Stein; Jill,9.0,170.0,0.0,0.0,0.0,0.0,2.0,2.0
+54,Colorado,P60022654,McMullin; Evan,9.0,170.0,0.0,0.0,0.0,0.0,2.0,2.0
+55,Colorado,P60021102,Castle; Darrell L.,9.0,170.0,0.0,0.0,0.0,0.0,1.0,1.0
+56,Colorado,P60009917,Keniston; Chris,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+57,Colorado,P60016623,Smith; Mike,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+58,Colorado,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+59,Colorado,P60015419,Kopitke; Kyle Kenley,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+60,Colorado,P60018249,Maldonado; Joseph Allen,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+61,Colorado,P60022787,Maturen; Michael A.,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+62,Colorado,P60017035,Silva; Rod,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+63,Colorado,n/a,Scott; Ryan Alan,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+64,Colorado,P20005260,Hoefling; Tom,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+65,Colorado,P80005572,La Riva; Gloria Estela,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+66,Colorado,P80005473,Kennedy; Alyson,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+67,Colorado,P20004511,Kotlikoff; Laurence,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+68,Colorado,P60023504,Lyttle; Bradford,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+69,Colorado,P60023496,Atwood; Frank,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+70,Colorado,P60018017,Soltysik; Emidio,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+71,Colorado,P60017340,Hedges; James,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+72,Colorado,n/a,Perry; David,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+73,Colorado,n/a,Sterner; Corey,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+74,Colorado,P60020617,Perry; Brian Anthony,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+75,Colorado,n/a,Lohmiller; Bruce,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+76,Colorado,P60005303,Fox; Cherunda,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+77,Colorado,n/a,Nieman; Thomas J.,9.0,170.0,0.0,0.0,0.0,0.0,0.0,0.0
+78,Connecticut,P00003392,Clinton; Hillary,7.0,121.0,7.0,5.0,4.0,121.0,67.0,66.0
+79,Connecticut,P80001571,Trump; Donald J.,7.0,121.0,0.0,2.0,3.0,0.0,49.0,49.0
+80,Connecticut,P20002671,Johnson; Gary,7.0,121.0,0.0,0.0,0.0,0.0,3.0,4.0
+81,Connecticut,P20003984,Stein; Jill,7.0,121.0,0.0,0.0,0.0,0.0,2.0,2.0
+82,Connecticut,P60022654,McMullin; Evan,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+83,Connecticut,P60021102,Castle; Darrell L.,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+84,Connecticut,n/a,Cooper; Jeffrey A.,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+85,Connecticut,n/a,Evans; Ronald,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+86,Connecticut,P60015351,Basiago; Andrew D.,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+87,Connecticut,P80005572,La Riva; Gloria,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+88,Connecticut,P20005260,Hoefling; Tom,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+89,Connecticut,P20004511,Kotlikoff; Laurence,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+90,Connecticut,P60020757,Buchanan; Robert L.,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+91,Connecticut,n/a,Wu; Jeffrey Anthony,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+92,Connecticut,n/a,Schoenke; Marshall,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+93,Connecticut,P60006673,Deame; Kevin,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+94,Connecticut,n/a,Blumenthal; Paul E.,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+95,Connecticut,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+96,Connecticut,P60016623,Smith; Mike,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+97,Connecticut,n/a,Klojzy; Jeffrey John; Jr.,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+98,Connecticut,n/a,Cummings; Darryl,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+99,Connecticut,P60018249,Maldonado; Joseph,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+100,Connecticut,P60012960,Skewes; Peter,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+101,Connecticut,P60005303,Fox; Cherunda,7.0,121.0,0.0,0.0,0.0,0.0,0.0,0.0
+102,Delaware,P00003392,Clinton; Hillary,3.0,32.0,3.0,3.0,2.0,32.0,18.0,17.0
+103,Delaware,P80001571,Trump; Donald J.,3.0,32.0,0.0,0.0,1.0,0.0,13.0,13.0
+104,Delaware,P20002671,Johnson; Gary,3.0,32.0,0.0,0.0,0.0,0.0,1.0,1.0
+105,Delaware,P20003984,Stein; Jill,3.0,32.0,0.0,0.0,0.0,0.0,0.0,1.0
+106,Delaware,n/a,Other,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+107,Delaware,P60022654,McMullin; Evan,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+108,Delaware,P60021102,Castle; Darrell L.,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+109,Delaware,P20005260,Hoefling; Thomas Conrad,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+110,Delaware,P60020757,Buchanan; Robert L.,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+111,Delaware,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+112,Delaware,n/a,Hartnell; Benjamin,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+113,Delaware,P80005572,LaRiva; Gloria,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+114,Delaware,n/a,Limbaugh; David,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+115,Delaware,P60016623,Smith; Mike,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+116,Delaware,n/a,Scott; Ryan Alan,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+117,Delaware,P20004677,White; Jerry,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+118,Delaware,n/a,Duncan; Richard,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+119,Delaware,P60005808,Kahn; Lynn,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+120,Delaware,P80004989,Locke; Star,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+121,Delaware,P60018249,Maldonado; Joseph A.,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+122,Delaware,P60004868,Perry; Darryl W.,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+123,Delaware,P60020963,Sood; Ajay,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+124,Delaware,n/a,Stout; Matthew Water,3.0,32.0,0.0,0.0,0.0,0.0,0.0,0.0
+125,District of Columbia,P00003392,Clinton; Hillary,3.0,20.0,3.0,3.0,3.0,20.0,18.0,18.0
+126,District of Columbia,P80001571,Trump; Donald J.,3.0,20.0,0.0,0.0,0.0,0.0,1.0,1.0
+127,District of Columbia,n/a,Scattered,3.0,20.0,0.0,0.0,0.0,0.0,1.0,1.0
+128,District of Columbia,P20002671,Johnson; Gary,3.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0
+129,District of Columbia,P20003984,Stein; Jill,3.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0
+130,Florida,P80001571,Trump; Donald J.,29.0,632.0,29.0,15.0,14.0,632.0,311.0,310.0
+131,Florida,P00003392,Clinton; Hillary,29.0,632.0,0.0,13.0,14.0,0.0,301.0,302.0
+132,Florida,P20002671,Johnson; Gary,29.0,632.0,0.0,1.0,1.0,0.0,14.0,14.0
+133,Florida,P20003984,Stein; Jill,29.0,632.0,0.0,0.0,0.0,0.0,4.0,4.0
+134,Florida,P60021102,Castle; Darrell L.,29.0,632.0,0.0,0.0,0.0,0.0,1.0,1.0
+135,Florida,P60016342,De La Fuente; Roque (Rocky),29.0,632.0,0.0,0.0,0.0,0.0,1.0,1.0
+136,Florida,P20004511,Kotlikoff; Laurence J.,29.0,632.0,0.0,0.0,0.0,0.0,0.0,0.0
+137,Florida,n/a,Duncan; Richard,29.0,632.0,0.0,0.0,0.0,0.0,0.0,0.0
+138,Florida,P60015351,Basiago; Andrew D.,29.0,632.0,0.0,0.0,0.0,0.0,0.0,0.0
+139,Florida,P60008190,Gyurko; Zoltan Istvan,29.0,632.0,0.0,0.0,0.0,0.0,0.0,0.0
+140,Florida,n/a,"""""""Valdivia; Anthony """"""""Tony"""""""" Joseph""""""",29.0,632.0,0.0,0.0,0.0,0.0,0.0,0.0
+141,Florida,P60005303,Fox; Cherunda,29.0,632.0,0.0,0.0,0.0,0.0,0.0,0.0
+142,Georgia,P80001571,Trump; Donald J.,16.0,326.0,16.0,9.0,8.0,326.0,166.0,165.0
+143,Georgia,P00003392,Clinton; Hillary,16.0,326.0,0.0,6.0,7.0,0.0,148.0,149.0
+144,Georgia,P20002671,Johnson; Gary,16.0,326.0,0.0,1.0,1.0,0.0,10.0,10.0
+145,Georgia,P60022654,McMullin; Evan,16.0,326.0,0.0,0.0,0.0,0.0,1.0,1.0
+146,Georgia,P20003984,Stein; Jill,16.0,326.0,0.0,0.0,0.0,0.0,1.0,1.0
+147,Georgia,P60021102,Castle; Darrell,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+148,Georgia,P60022787,Maturen; Mike,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+149,Georgia,P60005303,Fox; Cherunda,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+150,Georgia,P20005260,Hoefling; Thomas,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+151,Georgia,P60016623,Smith; Michael L.,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+152,Georgia,P20004511,Kotlikoff; Laurence,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+153,Georgia,n/a,Wilson; Sandra,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+154,Georgia,P60020757,Buchanan; Robert,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+155,Georgia,n/a,Muhammad; Ricky,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+156,Georgia,P60023207,Cubbler; Scott,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+157,Georgia,n/a,Collins; Loren,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+158,Georgia,P80003643,Elliott; Claire Elisabeth,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+159,Georgia,n/a,Byrne; David C.,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+160,Georgia,n/a,Allen; Stephen L.,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+161,Georgia,n/a,Urbach; Marc,16.0,326.0,0.0,0.0,0.0,0.0,0.0,0.0
+162,Hawaii,P00003392,Clinton; Hillary,4.0,47.0,4.0,3.0,3.0,47.0,30.0,29.0
+163,Hawaii,P80001571,Trump; Donald J.,4.0,47.0,0.0,1.0,1.0,0.0,14.0,14.0
+164,Hawaii,P20002671,Johnson; Gary,4.0,47.0,0.0,0.0,0.0,0.0,2.0,2.0
+165,Hawaii,P20003984,Stein; Jill,4.0,47.0,0.0,0.0,0.0,0.0,1.0,1.0
+166,Hawaii,P60021102,Castle; Darrell L.,4.0,47.0,0.0,0.0,0.0,0.0,0.0,1.0
+167,Idaho,P80001571,Trump; Donald J.,4.0,54.0,4.0,3.0,3.0,54.0,33.0,32.0
+168,Idaho,P00003392,Clinton; Hillary Rodham,4.0,54.0,0.0,1.0,1.0,0.0,14.0,15.0
+169,Idaho,P60022654,McMullin; Evan,4.0,54.0,0.0,0.0,0.0,0.0,4.0,4.0
+170,Idaho,P20002671,Johnson; Gary,4.0,54.0,0.0,0.0,0.0,0.0,2.0,2.0
+171,Idaho,P20003984,Stein; Jill,4.0,54.0,0.0,0.0,0.0,0.0,1.0,1.0
+172,Idaho,P60021102,Castle; Darrell L.,4.0,54.0,0.0,0.0,0.0,0.0,0.0,0.0
+173,Idaho,P60007457,Copeland; Scott,4.0,54.0,0.0,0.0,0.0,0.0,0.0,0.0
+174,Idaho,P60016342,De La Fuente; Rocky,4.0,54.0,0.0,0.0,0.0,0.0,0.0,0.0
+175,Illinois,P00003392,Clinton; Hillary Rodham,20.0,430.0,20.0,12.0,11.0,430.0,241.0,240.0
+176,Illinois,P80001571,Trump; Donald J.,20.0,430.0,0.0,7.0,8.0,0.0,166.0,167.0
+177,Illinois,P20002671,Johnson; Gary,20.0,430.0,0.0,1.0,1.0,0.0,16.0,16.0
+178,Illinois,P20003984,Stein; Jill,20.0,430.0,0.0,0.0,0.0,0.0,6.0,6.0
+179,Illinois,P60022654,McMullin; Evan,20.0,430.0,0.0,0.0,0.0,0.0,1.0,1.0
+180,Illinois,P60021102,Castle; Darrell,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+181,Illinois,P20005260,Hoefling; Tom,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+182,Illinois,P20004511,Kotlikoff; Laurence,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+183,Illinois,n/a,Anderson; James,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+184,Illinois,n/a,Seeberg; Phillip,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+185,Illinois,n/a,Schoenke; Marshall Roy,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+186,Illinois,n/a,McKee; Kevin,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+187,Illinois,P60018249,Maldonado; Joseph A.,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+188,Illinois,P60023686,Breivogel; Joann,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+189,Illinois,P60019114,Morris; Laio,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+190,Illinois,n/a,Stack; David G.,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+191,Illinois,n/a,Roberts; Matthew,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+192,Illinois,n/a,Lee; Jonathan,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+193,Illinois,n/a,Hartnell; Ben,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+194,Illinois,n/a,Brumfield; Author C.,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+195,Illinois,n/a,Smith; Duff Cooper,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+196,Illinois,P60005303,Fox; Cherunda,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+197,Illinois,n/a,Meluch; Timothy B.,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+198,Illinois,n/a,Tyree; Roy Wayne,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+199,Illinois,n/a,Harper; Mark J.,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+200,Illinois,n/a,Johnson; Nathan,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+201,Illinois,n/a,Struck; James T.,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+202,Illinois,P60020484,Wysinger; Dem J.,20.0,430.0,0.0,0.0,0.0,0.0,0.0,0.0
+203,Indiana,P80001571,Trump; Donald J.,11.0,218.0,11.0,7.0,6.0,218.0,125.0,124.0
+204,Indiana,P00003392,Clinton; Hillary,11.0,218.0,0.0,3.0,4.0,0.0,82.0,82.0
+205,Indiana,P20002671,Johnson; Gary,11.0,218.0,0.0,1.0,1.0,0.0,10.0,11.0
+206,Indiana,P20003984,Stein; Jill,11.0,218.0,0.0,0.0,0.0,0.0,1.0,1.0
+207,Indiana,P60021102,Castle; Darrell L.,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+208,Indiana,P20005260,Hoefling; Tom,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+209,Indiana,n/a,Roberts; Matthew,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+210,Indiana,n/a,Jackson; Denny Carroll,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+211,Indiana,P60018017,Soltysik; Emidio,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+212,Indiana,P20004511,Kotlikoff; Laurence,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+213,Indiana,n/a,Kelly; Melissa L.,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+214,Indiana,n/a,Duncan; Richard,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+215,Indiana,n/a,Mullis; Richard G.,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+216,Indiana,P60016342,De La Fuente; Roque,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+217,Indiana,n/a,Brown; Ray C.,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+218,Indiana,P60018249,Maldonado; Joseph,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+219,Indiana,P60005303,Fox; Cherunda,11.0,218.0,0.0,0.0,0.0,0.0,0.0,0.0
+220,Iowa,P80001571,Trump; Donald J.,6.0,103.0,6.0,4.0,3.0,103.0,54.0,53.0
+221,Iowa,P00003392,Clinton; Hillary,6.0,103.0,0.0,2.0,3.0,0.0,42.0,43.0
+222,Iowa,P20002671,Johnson; Gary,6.0,103.0,0.0,0.0,0.0,0.0,4.0,4.0
+223,Iowa,n/a,Scattered,6.0,103.0,0.0,0.0,0.0,0.0,1.0,1.0
+224,Iowa,P60022654,McMullin; Evan,6.0,103.0,0.0,0.0,0.0,0.0,1.0,1.0
+225,Iowa,P20003984,Stein; Jill,6.0,103.0,0.0,0.0,0.0,0.0,1.0,1.0
+226,Iowa,P60021102,Castle; Darrell L.,6.0,103.0,0.0,0.0,0.0,0.0,0.0,0.0
+227,Iowa,P60005808,Kahn; Lynn,6.0,103.0,0.0,0.0,0.0,0.0,0.0,0.0
+228,Iowa,n/a,Vacek; Dan R.,6.0,103.0,0.0,0.0,0.0,0.0,0.0,0.0
+229,Iowa,P60016342,De La Fuente; Rocky Roque,6.0,103.0,0.0,0.0,0.0,0.0,0.0,0.0
+230,Iowa,P80005572,La Riva; Gloria,6.0,103.0,0.0,0.0,0.0,0.0,0.0,0.0
+231,Kansas,P80001571,Trump; Donald J.,6.0,97.0,6.0,4.0,4.0,97.0,56.0,55.0
+232,Kansas,P00003392,Clinton; Hillary Rodham,6.0,97.0,0.0,2.0,2.0,0.0,34.0,35.0
+233,Kansas,P20002671,Johnson; Gary,6.0,97.0,0.0,0.0,0.0,0.0,4.0,5.0
+234,Kansas,P20003984,Stein; Jill,6.0,97.0,0.0,0.0,0.0,0.0,2.0,2.0
+235,Kansas,P60022654,McMullin; Evan,6.0,97.0,0.0,0.0,0.0,0.0,1.0,0.0
+236,Kansas,P60021102,Castle; Darrell L.,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+237,Kansas,P60022787,Maturen; Michael A.,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+238,Kansas,P20005260,Hoefling; Tom,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+239,Kansas,P60020963,Sood; Ajay,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+240,Kansas,P80005572,La Riva; Gloria,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+241,Kansas,P60015351,Basiago; Andrew D.,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+242,Kansas,P60016623,Smith; Mike,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+243,Kansas,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+244,Kansas,P60017340,Hedges; James A.,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+245,Kansas,P00003962,Schriner; Joe C.,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+246,Kansas,P60005808,Kahn; Lynn,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+247,Kansas,P60004868,Perry; Darryl,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+248,Kansas,P60007929,Sterling; Shawna,6.0,97.0,0.0,0.0,0.0,0.0,0.0,0.0
+249,Kentucky,P80001571,Trump; Donald J.,8.0,147.0,8.0,6.0,5.0,147.0,93.0,92.0
+250,Kentucky,P00003392,Clinton; Hillary Rodham,8.0,147.0,0.0,2.0,3.0,0.0,47.0,48.0
+251,Kentucky,P20002671,Johnson; Gary,8.0,147.0,0.0,0.0,0.0,0.0,4.0,4.0
+252,Kentucky,P60022654,McMullin; Evan,8.0,147.0,0.0,0.0,0.0,0.0,2.0,2.0
+253,Kentucky,P20003984,Stein; Jill,8.0,147.0,0.0,0.0,0.0,0.0,1.0,1.0
+254,Kentucky,P60016342,De La Fuente; Rocky Roque,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+255,Kentucky,P60021102,Castle; Darrell L.,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+256,Kentucky,P60022787,Maturen; Michael A.,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+257,Kentucky,P20005260,Hoefling; Tom,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+258,Kentucky,P60009917,Keniston; Chris,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+259,Kentucky,n/a,Jackson; Denny Carroll,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+260,Kentucky,n/a,Ellis; Craig,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+261,Kentucky,n/a,Stevens; Timothy Allen,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+262,Kentucky,P60016623,Smith; Mike,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+263,Kentucky,P20004511,Kotlikoff; Laurence,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+264,Kentucky,P60023207,Cubbler; Scott,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+265,Kentucky,n/a,Luesing; Richard Turner; Jr.,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+266,Kentucky,n/a,Hartnell; Ben,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+267,Kentucky,n/a,Perry; David,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+268,Kentucky,P20004677,White; Jerry,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+269,Kentucky,P60016904,Clark; Santa Roy A.,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+270,Kentucky,n/a,Duncan; Richard,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+271,Kentucky,P60018249,Maldonado; Joseph,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+272,Kentucky,n/a,Schoenke; Marshall,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+273,Kentucky,P60005303,Fox; Cherunda,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+274,Kentucky,n/a,Ling; William Martin,8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+275,Kentucky,P20002630,"""""""Tittle; Sheila """"""""Samm""""""""""""""",8.0,147.0,0.0,0.0,0.0,0.0,0.0,0.0
+276,Louisiana,P80001571,Trump; Donald,8.0,153.0,8.0,6.0,5.0,153.0,90.0,89.0
+277,Louisiana,P00003392,Clinton; Hillary,8.0,153.0,0.0,2.0,3.0,0.0,58.0,59.0
+278,Louisiana,P20002671,Johnson; Gary,8.0,153.0,0.0,0.0,0.0,0.0,3.0,3.0
+279,Louisiana,P20003984,Stein; Jill,8.0,153.0,0.0,0.0,0.0,0.0,1.0,1.0
+280,Louisiana,P60022654,McMullin; Evan,8.0,153.0,0.0,0.0,0.0,0.0,1.0,1.0
+281,Louisiana,P60021102,Castle; Darrell,8.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+282,Louisiana,P60009917,Keniston; Chris,8.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+283,Louisiana,P20005260,Hoefling; Tom,8.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+284,Louisiana,P20004511,Kotlikoff; Laurence,8.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+285,Louisiana,P20004768,Jacob; Princess,8.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+286,Louisiana,P80005473,Kennedy; Alyson,8.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+287,Louisiana,P80005572,La Riva; Gloria,8.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+288,Louisiana,P20004677,White; Jerry,8.0,153.0,0.0,0.0,0.0,0.0,0.0,0.0
+289,Maine,P00003392,Clinton; Hillary R.,4.0,46.0,4.0,3.0,2.0,46.0,23.0,22.0
+290,Maine,P80001571,Trump; Donald J.,4.0,46.0,0.0,1.0,2.0,0.0,20.0,21.0
+291,Maine,P20002671,Johnson; Gary,4.0,46.0,0.0,0.0,0.0,0.0,2.0,2.0
+292,Maine,P20003984,Stein; Jill,4.0,46.0,0.0,0.0,0.0,0.0,1.0,1.0
+293,Maine,P60022654,McMullin; David Evan,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+294,Maine,P60021102,Castle; Darrell L.,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+295,Maine,P20004511,Kotlikoff; Laurence J.,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+296,Maine,P60005303,Fox; Cherunda L.,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+297,Maryland,P00003392,Clinton; Hillary,10.0,194.0,10.0,7.0,6.0,194.0,118.0,117.0
+298,Maryland,P80001571,Trump; Donald J.,10.0,194.0,0.0,3.0,4.0,0.0,65.0,66.0
+299,Maryland,P20002671,Johnson; Gary,10.0,194.0,0.0,0.0,0.0,0.0,6.0,6.0
+300,Maryland,P20003984,Stein; Jill,10.0,194.0,0.0,0.0,0.0,0.0,2.0,2.0
+301,Maryland,n/a,Other,10.0,194.0,0.0,0.0,0.0,0.0,2.0,2.0
+302,Maryland,P60022654,McMullin; Evan,10.0,194.0,0.0,0.0,0.0,0.0,1.0,1.0
+303,Maryland,P60021102,Castle; Darrell L.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+304,Maryland,P60022787,Maturen; Michael A.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+305,Maryland,P60018975,McCarthy; Stephen,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+306,Maryland,P20004511,Kotlikoff; Laurence,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+307,Maryland,P60016888,Boring; Paij,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+308,Maryland,n/a,Reid; Janet L.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+309,Maryland,n/a,Carlisle; Martin,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+310,Maryland,P80005572,La Riva; Gloria,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+311,Maryland,P60019304,Adams; Paul,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+312,Maryland,P20005260,Hoefling; Tom,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+313,Maryland,n/a,Gates; Jacqueline,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+314,Maryland,P60020757,Buchanan; Robert,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+315,Maryland,n/a,Hartnell; Ben,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+316,Maryland,P60023686,Breivogel; Joann,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+317,Maryland,n/a,Duncan; Richard,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+318,Maryland,P60005808,Kahn; Lynn,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+319,Maryland,P60015013,Pendleton; Cathy Johnson,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+320,Maryland,P60019940,Thomas; Mary E.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+321,Maryland,n/a,Brown; Dana E.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+322,Maryland,P60016342,"""""""De La Fuente; Roque """"""""Rocky""""""""""""""",10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+323,Maryland,P60016623,"""""""Smith; Michael L. """"""""Mike""""""""""""""",10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+324,Maryland,n/a,Soldjah; Sistah,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+325,Maryland,P60018249,Maldonado; Joseph A.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+326,Maryland,n/a,Smith; Coop,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+327,Maryland,n/a,Valdivia; Anthony Tony J.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+328,Maryland,P20004677,White; Jerry,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+329,Maryland,P80004989,Locke; Star,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+330,Maryland,n/a,Symonette; Maurice,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+331,Maryland,P60005303,Fox; Cherunda,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+332,Maryland,P00003962,Schriner; Joe,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+333,Maryland,P60005550,Bolar; Shelia,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+334,Maryland,P60005899,Bowhall; William E.; Jr.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+335,Maryland,P60022043,Puskar; Michael B.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+336,Maryland,P60021243,Flippin; Ameer,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+337,Maryland,P60018017,Soltysik; Emidio,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+338,Maryland,,Boyles; Michael David,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+339,Maryland,P60017340,Hedges; James,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+340,Maryland,P20005187,Brown; Theodis; Sr.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+341,Maryland,P60008299,Jennings; Gerald; II,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+342,Maryland,n/a,Schoenke; Marshall,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+343,Maryland,P60007689,Keita; Mohammed,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+344,Maryland,n/a,Vogel-Walcutt; J. J.,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+345,Maryland,n/a,Edgell; Richard Baxter,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+346,Maryland,n/a,Terry; Doug,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+347,Maryland,P60023611,Vakil; Kora Roberta Katz,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+348,Maryland,n/a,Williams; Mitchell,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+349,Maryland,P60020484,Wysinger; Demetra Jefferson,10.0,194.0,0.0,0.0,0.0,0.0,0.0,0.0
+350,Massachusetts,P00003392,Clinton; Hillary,11.0,220.0,11.0,8.0,7.0,220.0,133.0,132.0
+351,Massachusetts,P80001571,Trump; Donald J.,11.0,220.0,0.0,3.0,4.0,0.0,72.0,72.0
+352,Massachusetts,P20002671,Johnson; Gary,11.0,220.0,0.0,0.0,0.0,0.0,9.0,9.0
+353,Massachusetts,n/a,All Others,11.0,220.0,0.0,0.0,0.0,0.0,3.0,4.0
+354,Massachusetts,P20003984,Stein; Jill,11.0,220.0,0.0,0.0,0.0,0.0,3.0,3.0
+355,Massachusetts,P60022654,McMullin; David,11.0,220.0,0.0,0.0,0.0,0.0,0.0,0.0
+356,Massachusetts,n/a,Feegbeh; William,11.0,220.0,0.0,0.0,0.0,0.0,0.0,0.0
+357,Massachusetts,P20004511,Kotlikoff; Laurence,11.0,220.0,0.0,0.0,0.0,0.0,0.0,0.0
+358,Massachusetts,P60004405,Moorehead; Monica G.,11.0,220.0,0.0,0.0,0.0,0.0,0.0,0.0
+359,Michigan,P80001571,Trump; Donald J.,16.0,332.0,16.0,9.0,8.0,332.0,159.0,158.0
+360,Michigan,P00003392,Clinton; Hillary,16.0,332.0,0.0,7.0,7.0,0.0,156.0,157.0
+361,Michigan,P20002671,Johnson; Gary,16.0,332.0,0.0,0.0,1.0,0.0,12.0,12.0
+362,Michigan,P20003984,Stein; Jill,16.0,332.0,0.0,0.0,0.0,0.0,3.0,3.0
+363,Michigan,P60021102,Castle; Darrell L.,16.0,332.0,0.0,0.0,0.0,0.0,1.0,1.0
+364,Michigan,P60022654,McMullin; Evan,16.0,332.0,0.0,0.0,0.0,0.0,1.0,1.0
+365,Michigan,P60018017,Soltysik; Emidio Mimi,16.0,332.0,0.0,0.0,0.0,0.0,0.0,0.0
+366,Michigan,P60022787,Maturen; Michael A.,16.0,332.0,0.0,0.0,0.0,0.0,0.0,0.0
+367,Michigan,P20005260,Hoefling; Tom,16.0,332.0,0.0,0.0,0.0,0.0,0.0,0.0
+368,Michigan,P20004511,Kotlikoff; Laurence,16.0,332.0,0.0,0.0,0.0,0.0,0.0,0.0
+369,Michigan,n/a,Hartnell; Ben,16.0,332.0,0.0,0.0,0.0,0.0,0.0,0.0
+370,Michigan,P60004405,Moorehead; Monica,16.0,332.0,0.0,0.0,0.0,0.0,0.0,0.0
+371,Michigan,P60005303,Fox; Cherunda,16.0,332.0,0.0,0.0,0.0,0.0,0.0,0.0
+372,Minnesota,P00003392,Clinton; Hillary,10.0,179.0,10.0,6.0,5.0,179.0,84.0,83.0
+373,Minnesota,P80001571,Trump; Donald J.,10.0,179.0,0.0,4.0,5.0,0.0,79.0,80.0
+374,Minnesota,P20002671,Johnson; Gary,10.0,179.0,0.0,0.0,0.0,0.0,7.0,7.0
+375,Minnesota,P60022654,McMullin; Evan,10.0,179.0,0.0,0.0,0.0,0.0,3.0,3.0
+376,Minnesota,P20003984,Stein; Jill,10.0,179.0,0.0,0.0,0.0,0.0,2.0,2.0
+377,Minnesota,n/a,Scattered,10.0,179.0,0.0,0.0,0.0,0.0,2.0,2.0
+378,Minnesota,n/a,Vacek; Dan R.,10.0,179.0,0.0,0.0,0.0,0.0,1.0,1.0
+379,Minnesota,P60021102,Castle; Darrell,10.0,179.0,0.0,0.0,0.0,0.0,1.0,1.0
+380,Minnesota,P80005473,Kennedy; Alyson,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+381,Minnesota,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+382,Minnesota,P60022787,Maturen; Michael Andrew,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+383,Minnesota,n/a,Wharton; Jeffrey Ryan; Sr.,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+384,Minnesota,n/a,Bartlett; Henry,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+385,Minnesota,P60009917,Keniston; Chris,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+386,Minnesota,n/a,Muffoletto; Daniel,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+387,Minnesota,P20005260,Hoefling; Tom,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+388,Minnesota,n/a,Ball; Dennis Andrew,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+389,Minnesota,P20004511,Kotlikoff; Laurence,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+390,Minnesota,P60017852,Roberts; Clifton,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+391,Minnesota,P60018017,Soltysik; Emidio,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+392,Minnesota,P80005572,La Riva; Gloria,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+393,Minnesota,P20004677,White; Jerome S. (Jerry),10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+394,Minnesota,P00003962,Schriner; Joe,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+395,Minnesota,n/a,Sidner; Arthur E.,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+396,Minnesota,n/a,Wettschreck; Kirk,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+397,Minnesota,P60016623,"""""""Smith; Michael L. """"""""Mike""""""""""""""",10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+398,Minnesota,n/a,Hartnell; Ben,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+399,Minnesota,n/a,Koplitz; Roger,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+400,Minnesota,n/a,Mallapadi; Srinivasa K.,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+401,Minnesota,n/a,Payeur; Micah,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+402,Minnesota,n/a,Duncan; Richard,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+403,Minnesota,n/a,Gerhard; Eric,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+404,Minnesota,n/a,Lynch; Darin,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+405,Minnesota,n/a,Roberts; Matthew,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+406,Minnesota,n/a,Robertson; Platt,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+407,Minnesota,n/a,Schumacher; Derrick,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+408,Minnesota,n/a,Snell; Keith Richard,10.0,179.0,0.0,0.0,0.0,0.0,0.0,0.0
+409,Mississippi,P80001571,Trump; Donald J.,6.0,101.0,6.0,4.0,4.0,101.0,60.0,59.0
+410,Mississippi,P00003392,Clinton; Hillary,6.0,101.0,0.0,2.0,2.0,0.0,40.0,41.0
+411,Mississippi,P20002671,Johnson; Gary,6.0,101.0,0.0,0.0,0.0,0.0,1.0,1.0
+412,Mississippi,P60021102,Castle; Darrell,6.0,101.0,0.0,0.0,0.0,0.0,0.0,0.0
+413,Mississippi,P20003984,Stein; Jill,6.0,101.0,0.0,0.0,0.0,0.0,0.0,0.0
+414,Mississippi,P60017340,Hedges; Jim,6.0,101.0,0.0,0.0,0.0,0.0,0.0,0.0
+415,Mississippi,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",6.0,101.0,0.0,0.0,0.0,0.0,0.0,0.0
+416,Missouri,P80001571,Trump; Donald J.,10.0,202.0,10.0,7.0,6.0,202.0,116.0,115.0
+417,Missouri,P00003392,Clinton; Hillary Rodham,10.0,202.0,0.0,3.0,4.0,0.0,76.0,77.0
+418,Missouri,P20002671,Johnson; Gary,10.0,202.0,0.0,0.0,0.0,0.0,7.0,7.0
+419,Missouri,P20003984,Stein; Jill,10.0,202.0,0.0,0.0,0.0,0.0,2.0,2.0
+420,Missouri,P60021102,Castle; Darrell L.,10.0,202.0,0.0,0.0,0.0,0.0,1.0,1.0
+421,Missouri,P60022654,McMullin; Evan,10.0,202.0,0.0,0.0,0.0,0.0,0.0,0.0
+422,Missouri,P20005260,Hoefling; Tom,10.0,202.0,0.0,0.0,0.0,0.0,0.0,0.0
+423,Missouri,P20004511,Kotlikoff; Laurence,10.0,202.0,0.0,0.0,0.0,0.0,0.0,0.0
+424,Missouri,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",10.0,202.0,0.0,0.0,0.0,0.0,0.0,0.0
+425,Missouri,n/a,Schoenke; Marshall,10.0,202.0,0.0,0.0,0.0,0.0,0.0,0.0
+426,Montana,P80001571,Trump; Donald J.,3.0,35.0,3.0,3.0,2.0,35.0,21.0,20.0
+427,Montana,P00003392,Clinton; Hillary,3.0,35.0,0.0,0.0,1.0,0.0,12.0,12.0
+428,Montana,P20002671,Johnson; Gary,3.0,35.0,0.0,0.0,0.0,0.0,2.0,2.0
+429,Montana,P20003984,Stein; Jill,3.0,35.0,0.0,0.0,0.0,0.0,0.0,1.0
+430,Montana,P60022654,McMullin; Evan,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+431,Montana,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+432,Montana,P60021102,Castle; Darrell L.,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+433,Montana,P20005260,Hoefling; Tom,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+434,Montana,P20004511,Kotlikoff; Laurence,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+435,Montana,P60015351,Basiago; Andrew D.,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+436,Montana,P60020757,Buchanan; Robert L.,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+437,Montana,P60018249,Maldonado; Joseph,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+438,Montana,P60019114,Morris; Laio,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+439,Montana,P60004868,Perry; Darryl W.,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+440,Montana,P00003962,Schriner; Joe,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+441,Montana,P60016623,Smith; Michael L. (Mike),3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+442,Montana,P60018017,Soltysik; Emidio,3.0,35.0,0.0,0.0,0.0,0.0,0.0,0.0
+443,Nebraska,P80001571,Trump; Donald J.,5.0,63.0,5.0,4.0,3.0,63.0,38.0,37.0
+444,Nebraska,P00003392,Clinton; Hillary,5.0,63.0,0.0,1.0,2.0,0.0,20.0,21.0
+445,Nebraska,P20002671,Johnson; Gary,5.0,63.0,0.0,0.0,0.0,0.0,3.0,3.0
+446,Nebraska,n/a,Scattered,5.0,63.0,0.0,0.0,0.0,0.0,1.0,1.0
+447,Nebraska,P20003984,Stein; Jill,5.0,63.0,0.0,0.0,0.0,0.0,1.0,1.0
+448,Nevada,P00003392,Clinton; Hillary,6.0,92.0,6.0,4.0,3.0,92.0,45.0,44.0
+449,Nevada,P80001571,Trump; Donald J.,6.0,92.0,0.0,2.0,3.0,0.0,41.0,42.0
+450,Nevada,P20002671,Johnson; Gary,6.0,92.0,0.0,0.0,0.0,0.0,3.0,3.0
+451,Nevada,n/a,None of These Candidates,6.0,92.0,0.0,0.0,0.0,0.0,2.0,2.0
+452,Nevada,P60021102,Castle; Darrell,6.0,92.0,0.0,0.0,0.0,0.0,1.0,1.0
+453,Nevada,P60016342,"""""""De La Fuente; Roque """"""""Rocky""""""""""""""",6.0,92.0,0.0,0.0,0.0,0.0,0.0,0.0
+454,New Hampshire,P00003392,Clinton; Hillary,4.0,46.0,4.0,3.0,2.0,46.0,23.0,22.0
+455,New Hampshire,P80001571,Trump; Donald J.,4.0,46.0,0.0,1.0,2.0,0.0,21.0,21.0
+456,New Hampshire,P20002671,Johnson; Gary,4.0,46.0,0.0,0.0,0.0,0.0,2.0,2.0
+457,New Hampshire,P20003984,Stein; Jill,4.0,46.0,0.0,0.0,0.0,0.0,0.0,1.0
+458,New Hampshire,P60007168,Sanders; Bernie,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+459,New Hampshire,n/a,Scattered,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+460,New Hampshire,P60003670,Kasich; John,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+461,New Hampshire,P60022654,McMullin; Evan,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+462,New Hampshire,n/a,Pence; Mike,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+463,New Hampshire,P60016342,"""""""De La Fuente; Roque """"""""Rocky""""""""""""""",4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+464,New Hampshire,P80003353,Romney; Mitt,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+465,New Hampshire,n/a,Ryan; Paul,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+466,New Hampshire,P60008059,Bush; Jeb,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+467,New Hampshire,P60006723,Rubio; Marco,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+468,New Hampshire,P60006111,Cruz; Ted,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+469,New Hampshire,P80002801,McCain; John,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+470,New Hampshire,n/a,Paul; Ron or Rand,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+471,New Hampshire,P60005915,Carson; Ben,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+472,New Hampshire,n/a,Supreme; Vermin,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+473,New Hampshire,P80000722,Biden; Joe,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+474,New Hampshire,P60008521,Christie; Chris,4.0,46.0,0.0,0.0,0.0,0.0,0.0,0.0
+475,New Jersey,P00003392,Clinton; Hillary Rodham,14.0,295.0,14.0,9.0,8.0,295.0,165.0,164.0
+476,New Jersey,P80001571,Trump; Donald J.,14.0,295.0,0.0,5.0,6.0,0.0,121.0,122.0
+477,New Jersey,P20002671,Johnson; Gary,14.0,295.0,0.0,0.0,0.0,0.0,6.0,6.0
+478,New Jersey,P20003984,Stein; Jill,14.0,295.0,0.0,0.0,0.0,0.0,3.0,3.0
+479,New Jersey,P60021102,Castle; Darrell,14.0,295.0,0.0,0.0,0.0,0.0,0.0,0.0
+480,New Jersey,P80005473,Kennedy; Alyson,14.0,295.0,0.0,0.0,0.0,0.0,0.0,0.0
+481,New Jersey,P60016342,De La Fuente; Rocky Roque,14.0,295.0,0.0,0.0,0.0,0.0,0.0,0.0
+482,New Jersey,P60004405,Moorehead; Monica,14.0,295.0,0.0,0.0,0.0,0.0,0.0,0.0
+483,New Jersey,P80005572,La Riva; Gloria,14.0,295.0,0.0,0.0,0.0,0.0,0.0,0.0
+484,New Mexico,P00003392,Clinton; Hillary Rodham,5.0,70.0,5.0,4.0,2.0,70.0,35.0,34.0
+485,New Mexico,P80001571,Trump; Donald J.,5.0,70.0,0.0,1.0,2.0,0.0,27.0,28.0
+486,New Mexico,P20002671,Johnson; Gary,5.0,70.0,0.0,0.0,1.0,0.0,6.0,7.0
+487,New Mexico,P20003984,Stein; Jill,5.0,70.0,0.0,0.0,0.0,0.0,1.0,1.0
+488,New Mexico,P60022654,McMullin; Evan,5.0,70.0,0.0,0.0,0.0,0.0,1.0,0.0
+489,New Mexico,P60021102,Castle; Darrell,5.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+490,New Mexico,P80005572,La Riva; Gloria,5.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+491,New Mexico,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",5.0,70.0,0.0,0.0,0.0,0.0,0.0,0.0
+492,New York,P00003392,Clinton; Hillary,29.0,649.0,29.0,18.0,17.0,649.0,384.0,383.0
+493,New York,P80001571,Trump; Donald J.,29.0,649.0,0.0,10.0,11.0,0.0,236.0,237.0
+494,New York,P20002671,Johnson; Gary,29.0,649.0,0.0,1.0,1.0,0.0,15.0,15.0
+495,New York,P20003984,Stein; Jill,29.0,649.0,0.0,0.0,0.0,0.0,9.0,9.0
+496,New York,n/a,Scattered,29.0,649.0,0.0,0.0,0.0,0.0,4.0,4.0
+497,New York,P60022654,McMullin; Evan,29.0,649.0,0.0,0.0,0.0,0.0,1.0,1.0
+498,New York,P60021102,Castle; Darrell,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+499,New York,P60022787,Maturen; Michael A.,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+500,New York,P80005572,La Riva; Gloria,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+501,New York,P20005260,Hoefling; Tom,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+502,New York,P60009917,Keniston; Chris,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+503,New York,P60017852,Roberts; Clifton,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+504,New York,n/a,Mutford; Jason,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+505,New York,P60008190,Gyurko; Zoltan Istvan,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+506,New York,P60005808,Kahn; Lynn,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+507,New York,P60004405,Moorehead; Monica,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+508,New York,P60020757,Buchanan; Robert L.,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+509,New York,n/a,Hartnell; Ben,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+510,New York,P60018017,Soltysik; Emidio,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+511,New York,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+512,New York,n/a,Cohen; Ariel,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+513,New York,n/a,Connolly; William J.,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+514,New York,P80000268,Carter; Willie,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+515,New York,n/a,Mackler; Jeffrey,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+516,New York,n/a,Asherie; Neer R.,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+517,New York,n/a,Ingbar; Michael Frederick,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+518,New York,n/a,Fried; Jason,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+519,New York,P60023074,Canns; Gary S.,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+520,New York,n/a,Wolff; Robert M.,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+521,New York,n/a,Valdivia; Tony,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+522,New York,n/a,Schoenke; Marshall,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+523,New York,n/a,Scott; Ryan Alan,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+524,New York,n/a,Blickley; Mark,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+525,New York,n/a,Welsh; Esther,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+526,New York,n/a,Whitaker; Barbara,29.0,649.0,0.0,0.0,0.0,0.0,0.0,0.0
+527,North Carolina,P80001571,Trump; Donald J.,15.0,320.0,15.0,9.0,8.0,320.0,160.0,159.0
+528,North Carolina,P00003392,Clinton; Hillary,15.0,320.0,0.0,6.0,7.0,0.0,147.0,148.0
+529,North Carolina,P20002671,Johnson; Gary,15.0,320.0,0.0,0.0,0.0,0.0,9.0,9.0
+530,North Carolina,n/a,Scattered,15.0,320.0,0.0,0.0,0.0,0.0,3.0,3.0
+531,North Carolina,P20003984,Stein; Jill,15.0,320.0,0.0,0.0,0.0,0.0,1.0,1.0
+532,North Dakota,P80001571,Trump; Donald J.,3.0,24.0,3.0,3.0,2.0,24.0,16.0,15.0
+533,North Dakota,P00003392,Clinton; Hillary,3.0,24.0,0.0,0.0,1.0,0.0,6.0,7.0
+534,North Dakota,P20002671,Johnson; Gary,3.0,24.0,0.0,0.0,0.0,0.0,1.0,2.0
+535,North Dakota,n/a,Scattered,3.0,24.0,0.0,0.0,0.0,0.0,1.0,0.0
+536,North Dakota,P20003984,Stein; Jill,3.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0
+537,North Dakota,P60021102,Castle; Darrell,3.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0
+538,North Dakota,P60016342,De La Fuente; Rocky Roque,3.0,24.0,0.0,0.0,0.0,0.0,0.0,0.0
+539,Ohio,P80001571,Trump; Donald J.,18.0,387.0,18.0,10.0,9.0,387.0,201.0,200.0
+540,Ohio,P00003392,Clinton; Hillary,18.0,387.0,0.0,7.0,8.0,0.0,168.0,169.0
+541,Ohio,P20002671,Johnson; Gary,18.0,387.0,0.0,1.0,1.0,0.0,12.0,12.0
+542,Ohio,P20003984,Stein; Jill,18.0,387.0,0.0,0.0,0.0,0.0,3.0,3.0
+543,Ohio,n/a,Duncan; Richard,18.0,387.0,0.0,0.0,0.0,0.0,2.0,2.0
+544,Ohio,P60022654,McMullin; Evan,18.0,387.0,0.0,0.0,0.0,0.0,1.0,1.0
+545,Ohio,P60021102,Castle; Darrell L.,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+546,Ohio,n/a,Hartnell; Ben,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+547,Ohio,P60022787,Maturen; Michael Andrew,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+548,Ohio,P20005260,Hoefling; Tom,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+549,Ohio,P60009917,Keniston; Chris,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+550,Ohio,P20004511,Kotlikoff; Laurence,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+551,Ohio,P00003962,Schriner; Joe,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+552,Ohio,P60016623,Smith; Mike,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+553,Ohio,n/a,Stroh; Josiah R.,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+554,Ohio,P60004405,Moorehead; Monica,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+555,Ohio,P60018249,Maldonado; Joseph,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+556,Ohio,n/a,Kirschner; Barry,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+557,Ohio,P60007523,Bell; James Jerome,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+558,Ohio,n/a,Jaynes; Bruce E.,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+559,Ohio,P00004861,Bickelmeyer; Michael,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+560,Ohio,P60021656,Thomson; Douglas W.,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+561,Ohio,P60005303,Fox; Cherunda,18.0,387.0,0.0,0.0,0.0,0.0,0.0,0.0
+562,Oklahoma,P80001571,Trump; Donald J.,7.0,127.0,7.0,5.0,5.0,127.0,84.0,83.0
+563,Oklahoma,P00003392,Clinton; Hillary,7.0,127.0,0.0,2.0,2.0,0.0,36.0,37.0
+564,Oklahoma,P20002671,Johnson; Gary,7.0,127.0,0.0,0.0,0.0,0.0,7.0,7.0
+565,Oregon,P00003392,Clinton; Hillary,7.0,130.0,7.0,5.0,4.0,130.0,66.0,65.0
+566,Oregon,P80001571,Trump; Donald J.,7.0,130.0,0.0,2.0,3.0,0.0,50.0,51.0
+567,Oregon,P20002671,Johnson; Gary,7.0,130.0,0.0,0.0,0.0,0.0,6.0,6.0
+568,Oregon,n/a,Miscellaneous,7.0,130.0,0.0,0.0,0.0,0.0,5.0,5.0
+569,Oregon,P20003984,Stein; Jill,7.0,130.0,0.0,0.0,0.0,0.0,3.0,3.0
+570,Pennsylvania,P80001571,Trump; Donald J.,20.0,426.0,20.0,11.0,10.0,426.0,206.0,205.0
+571,Pennsylvania,P00003392,Clinton; Hillary,20.0,426.0,0.0,9.0,10.0,0.0,201.0,202.0
+572,Pennsylvania,P20002671,Johnson; Gary E.,20.0,426.0,0.0,0.0,0.0,0.0,10.0,10.0
+573,Pennsylvania,P20003984,Stein; Jill,20.0,426.0,0.0,0.0,0.0,0.0,3.0,4.0
+574,Pennsylvania,n/a,Scattered,20.0,426.0,0.0,0.0,0.0,0.0,3.0,3.0
+575,Pennsylvania,P60021102,Castle; Darrell L.,20.0,426.0,0.0,0.0,0.0,0.0,2.0,2.0
+576,Pennsylvania,P60022654,McMullin; Evan,20.0,426.0,0.0,0.0,0.0,0.0,1.0,0.0
+577,Pennsylvania,P60007168,Sanders; Bernie,20.0,426.0,0.0,0.0,0.0,0.0,0.0,0.0
+578,Pennsylvania,P60003670,Kasich; John,20.0,426.0,0.0,0.0,0.0,0.0,0.0,0.0
+579,Pennsylvania,P60005808,Kahn; Lynn,20.0,426.0,0.0,0.0,0.0,0.0,0.0,0.0
+580,Rhode Island,P00003392,Clinton; Hillary,4.0,37.0,4.0,3.0,2.0,37.0,21.0,20.0
+581,Rhode Island,P80001571,Trump; Donald J.,4.0,37.0,0.0,1.0,2.0,0.0,14.0,15.0
+582,Rhode Island,P20002671,Johnson; Gary,4.0,37.0,0.0,0.0,0.0,0.0,1.0,1.0
+583,Rhode Island,P20003984,Stein; Jill,4.0,37.0,0.0,0.0,0.0,0.0,1.0,1.0
+584,Rhode Island,P60007168,Sanders; Bernie,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+585,Rhode Island,n/a,Scattered,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+586,Rhode Island,P60022654,McMullin; Evan,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+587,Rhode Island,P60003670,Kasich; John,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+588,Rhode Island,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+589,Rhode Island,n/a,Pence; Michael,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+590,Rhode Island,P80003353,Romney; Mitt,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+591,Rhode Island,n/a,Ryan; Paul,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+592,Rhode Island,P80000722,Biden; Joe (Joseph),4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+593,Rhode Island,P80002801,McCain; John,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+594,Rhode Island,P60006723,Rubio; Marco,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+595,Rhode Island,n/a,Brady; Tom (Thomas),4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+596,Rhode Island,n/a,Mouse; Mickey,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+597,Rhode Island,P60008059,Bush; Jeb,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+598,Rhode Island,n/a,"""""""""""""""Christ;"""""""" Jesus """"""",4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+599,Rhode Island,n/a,None of the above,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+600,Rhode Island,P60005915,Carson; Ben,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+601,Rhode Island,P60021102,Castle; Darrell,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+602,Rhode Island,P60006111,Cruz; Ted (Senator),4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+603,Rhode Island,n/a,Powell; Colin,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+604,Rhode Island,P60022787,Maturen; Michael - American Solidarity Party,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+605,Rhode Island,n/a,Obama; Michelle,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+606,Rhode Island,P80004740,Bloomberg; Michael,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+607,Rhode Island,n/a,Rice; Condoleeza,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+608,Rhode Island,n/a,God (Almighty),4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+609,Rhode Island,n/a,Belichek; Bill (William),4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+610,Rhode Island,n/a,Chrisley; Todd,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+611,Rhode Island,n/a,None,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+612,Rhode Island,n/a,Cohen; Ted,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+613,Rhode Island,n/a,Duck; Donald,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+614,Rhode Island,P40003576,Paul; Rand,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+615,Rhode Island,n/a,Supreme; Vermin,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+616,Rhode Island,n/a,Harambe,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+617,Rhode Island,n/a,No Confidence,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+618,Rhode Island,n/a,Lincoln; Abe (Abraham),4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+619,Rhode Island,P80003338,Obama; Barack,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+620,Rhode Island,P60007242,Fiorina; Carly,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+621,Rhode Island,P60012796,Warren; Elizabeth,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+622,Rhode Island,P60008521,Christie; Chris,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+623,Rhode Island,P80000748,Paul; Ron,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+624,Rhode Island,P80003478,Huckabee; Mike,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+625,Rhode Island,P60008075,Chaffee; Lincoln,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+626,Rhode Island,n/a,Fecteau; Matt,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+627,Rhode Island,n/a,Gowdy; Trey,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+628,Rhode Island,P80005572,LaRiva; Gloria,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+629,Rhode Island,n/a,Neuman; Alfred E.,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+630,Rhode Island,n/a,No one,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+631,Rhode Island,n/a,Ventura; Jesse,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+632,Rhode Island,n/a,Anyone Else,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+633,Rhode Island,n/a,Buffett; Jimmy,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+634,Rhode Island,P20005260,Hoefling; Tom,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+635,Rhode Island,n/a,Kaine; Tim,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+636,Rhode Island,n/a,Pope Francis,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+637,Rhode Island,P60008885,Webb; James (Jim),4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+638,Rhode Island,,Williams; Roger,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+639,Rhode Island,P60009917,Kenniston; Chris,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+640,Rhode Island,n/a,Me,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+641,Rhode Island,n/a,N/A,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+642,Rhode Island,n/a,Norton; David,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+643,Rhode Island,P60009198,Nutz; Deez,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+644,Rhode Island,n/a,Roosevelt; Theodore,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+645,Rhode Island,n/a,Abstain,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+646,Rhode Island,n/a,Buffet; Warren,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+647,Rhode Island,n/a,Cooper; Alice,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+648,Rhode Island,n/a,God Help Us,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+649,Rhode Island,n/a,"""""""Healey; Robert (Bob) """"""""Cool Moose""""""""""""""",4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+650,Rhode Island,n/a,Murray; Bill,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+651,Rhode Island,n/a,Reagan; Ronald,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+652,Rhode Island,n/a,Reed; Jack,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+653,Rhode Island,n/a,Unity Love Harmony,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+654,Rhode Island,n/a,Washington; George,4.0,37.0,0.0,0.0,0.0,0.0,0.0,0.0
+655,South Carolina,P80001571,Trump; Donald J.,9.0,156.0,9.0,6.0,5.0,156.0,87.0,86.0
+656,South Carolina,P00003392,Clinton; Hillary Rodham,9.0,156.0,0.0,3.0,4.0,0.0,63.0,63.0
+657,South Carolina,P20002671,Johnson; Gary,9.0,156.0,0.0,0.0,0.0,0.0,4.0,4.0
+658,South Carolina,P60022654,McMullin; Evan,9.0,156.0,0.0,0.0,0.0,0.0,1.0,2.0
+659,South Carolina,P20003984,Stein; Jill,9.0,156.0,0.0,0.0,0.0,0.0,1.0,1.0
+660,South Carolina,P60021102,Castle; Darrell,9.0,156.0,0.0,0.0,0.0,0.0,0.0,0.0
+661,South Carolina,P60012960,Skewes; Peter,9.0,156.0,0.0,0.0,0.0,0.0,0.0,0.0
+662,South Dakota,P80001571,Trump; Donald J.,3.0,29.0,3.0,3.0,2.0,29.0,19.0,18.0
+663,South Dakota,P00003392,Clinton; Hillary,3.0,29.0,0.0,0.0,1.0,0.0,9.0,9.0
+664,South Dakota,P20002671,Johnson; Gary,3.0,29.0,0.0,0.0,0.0,0.0,1.0,2.0
+665,South Dakota,P60021102,Castle; Darrell L.,3.0,29.0,0.0,0.0,0.0,0.0,0.0,0.0
+666,Tennessee,P80001571,Trump; Donald J.,11.0,214.0,11.0,8.0,7.0,214.0,131.0,130.0
+667,Tennessee,P00003392,Clinton; Hillary,11.0,214.0,0.0,3.0,4.0,0.0,74.0,74.0
+668,Tennessee,P20002671,Johnson; Gary,11.0,214.0,0.0,0.0,0.0,0.0,6.0,6.0
+669,Tennessee,P20003984,Stein; Jill,11.0,214.0,0.0,0.0,0.0,0.0,1.0,2.0
+670,Tennessee,P60022654,McMullin; Evan,11.0,214.0,0.0,0.0,0.0,0.0,1.0,1.0
+671,Tennessee,P60016623,Smith; Mike,11.0,214.0,0.0,0.0,0.0,0.0,1.0,1.0
+672,Tennessee,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",11.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+673,Tennessee,P80005473,Kennedy; Alyson,11.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+674,Tennessee,P60021102,Castle; Darrell L.,11.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+675,Tennessee,P20005260,Hoefling; Tom,11.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+676,Tennessee,n/a,Limbaugh; David,11.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+677,Tennessee,P20004511,Kotlikoff; Laurence,11.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+678,Tennessee,P60005303,Fox; Cherunda,11.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+679,Tennessee,n/a,Schoenke; Marshall,11.0,214.0,0.0,0.0,0.0,0.0,0.0,0.0
+680,Texas,P80001571,Trump; Donald J.,38.0,844.0,38.0,21.0,20.0,844.0,442.0,441.0
+681,Texas,P00003392,Clinton; Hillary,38.0,844.0,0.0,16.0,17.0,0.0,364.0,365.0
+682,Texas,P20002671,Johnson; Gary,38.0,844.0,0.0,1.0,1.0,0.0,27.0,27.0
+683,Texas,P20003984,Stein; Jill,38.0,844.0,0.0,0.0,0.0,0.0,7.0,7.0
+684,Texas,P60022654,McMullin; Evan,38.0,844.0,0.0,0.0,0.0,0.0,4.0,4.0
+685,Texas,P60021102,Castle; Darrell L.,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+686,Texas,P60022787,Maturen; Michael A.,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+687,Texas,P20004511,Kotlikoff; Laurence,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+688,Texas,P20005260,Hoefling; Tom,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+689,Texas,n/a,Valdivia; Tony,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+690,Texas,P60023207,Cubbler; Scott,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+691,Texas,n/a,Morrow; Robert,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+692,Texas,P60004405,Moorehead; Monica,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+693,Texas,P60018017,Soltysik; Emidio,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+694,Texas,n/a,Steffes; Dale,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+695,Texas,n/a,Lee; Jonathan,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+696,Texas,P60005303,Fox; Cherunda,38.0,844.0,0.0,0.0,0.0,0.0,0.0,0.0
+697,Utah,P80001571,Trump; Donald J.,6.0,94.0,6.0,4.0,3.0,94.0,44.0,43.0
+698,Utah,P00003392,Clinton; Hillary Rodham,6.0,94.0,0.0,1.0,2.0,0.0,25.0,26.0
+699,Utah,P60022654,McMullin; Evan,6.0,94.0,0.0,1.0,1.0,0.0,20.0,20.0
+700,Utah,P20002671,Johnson; Gary,6.0,94.0,0.0,0.0,0.0,0.0,3.0,3.0
+701,Utah,P20003984,Stein; Jill,6.0,94.0,0.0,0.0,0.0,0.0,1.0,1.0
+702,Utah,P60021102,Castle; Darrell L.,6.0,94.0,0.0,0.0,0.0,0.0,1.0,1.0
+703,Utah,P60009875,Giordani; Rocky,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+704,Utah,P60016342,"""""""de la Fuente; """"""""Rocky"""""""" Roque""""""",6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+705,Utah,P60004405,Moorehead; Monica,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+706,Utah,P80005473,Kennedy; Alyson,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+707,Utah,P60016623,Smith; Mike,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+708,Utah,P60009602,Baird; Dustin,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+709,Utah,P20004511,Kotlikoff; Laurence,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+710,Utah,P20005260,Hoefling; Tom,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+711,Utah,P60015351,Basiago; Andrew D.,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+712,Utah,P60018017,Soltysik; Emidio,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+713,Utah,P60020757,Buchanan; Robert L.,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+714,Utah,n/a,Burton; Jamin,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+715,Utah,P20002630,"""""""Tittle; Sheila """"""""Samm""""""""""""""",6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+716,Utah,n/a,Valdivia; Tony,6.0,94.0,0.0,0.0,0.0,0.0,0.0,0.0
+717,Vermont,P00003392,Clinton; Hillary,3.0,23.0,3.0,3.0,2.0,23.0,14.0,13.0
+718,Vermont,P80001571,Trump; Donald J.,3.0,23.0,0.0,0.0,1.0,0.0,6.0,7.0
+719,Vermont,P60007168,Sanders; Bernie,3.0,23.0,0.0,0.0,0.0,0.0,1.0,1.0
+720,Vermont,P20002671,Johnson; Gary,3.0,23.0,0.0,0.0,0.0,0.0,1.0,1.0
+721,Vermont,P20003984,Stein; Jill,3.0,23.0,0.0,0.0,0.0,0.0,1.0,1.0
+722,Vermont,n/a,Scattered,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+723,Vermont,P60016342,De La Fuente; Rocky,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+724,Vermont,P60003670,Kasich; John,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+725,Vermont,P60022654,McMullin; Evan,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+726,Vermont,P80005572,La Riva; Gloria,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+727,Vermont,n/a,Pence; Michael R.,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+728,Vermont,n/a,No Name,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+729,Vermont,n/a,Ryan; Paul,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+730,Vermont,P80003353,Romney; Mitt,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+731,Vermont,P60006723,Rubio; Marco,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+732,Vermont,P60008059,Bush; Jeb,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+733,Vermont,P80002801,McCain; John,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+734,Vermont,n/a,Douglas; Jim,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+735,Vermont,P60021102,Castle; Darryll,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+736,Vermont,P60006111,Cruz; Ted,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+737,Vermont,P60005915,Carson; Ben,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+738,Vermont,P80000722,Biden; Joe,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+739,Vermont,P40003576,Paul; Rand,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+740,Vermont,P80000748,Paul; Ron,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+741,Vermont,n/a,Powell; Colin,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+742,Vermont,P80004740,Bloomberg; Michael,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+743,Vermont,n/a,Rice; Condoleeza,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+744,Vermont,n/a,Gabard; Tulsi,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+745,Vermont,n/a,Obama; Michelle,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+746,Vermont,P60022787,Maturen; Michael,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+747,Vermont,P60012796,Warren; Elizabeth,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+748,Vermont,n/a,Epstein; Theo,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+749,Vermont,P60007242,Fiorina; Carly,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+750,Vermont,P80003478,Huckabee; Mike,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+751,Vermont,n/a,Supreme; Vermin,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+752,Vermont,n/a,Brady; Tom,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+753,Vermont,P80003338,Obama; Barack,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+754,Vermont,n/a,Ortiz; David,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+755,Vermont,n/a,Belichek; Bill,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+756,Vermont,n/a,Leahy; Patrick,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+757,Vermont,P20000527,Nader; Ralph,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+758,Vermont,n/a,Tuttle; Fred,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+759,Vermont,n/a,Weld; William,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+760,Vermont,P60009917,Keniston; Chris,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+761,Vermont,P20004511,Kotlikoff; Lawrence,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+762,Vermont,P80005473,Osborne; Alyson Kennedy,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+763,Vermont,P60018017,Soltysik; Emilio,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+764,Vermont,P20004677,White; Jerry,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+765,Vermont,P60016623,Smith; Mike,3.0,23.0,0.0,0.0,0.0,0.0,0.0,0.0
+766,Virginia,P00003392,Clinton; Hillary R.,13.0,269.0,13.0,8.0,7.0,269.0,135.0,134.0
+767,Virginia,P80001571,Trump; Donald J.,13.0,269.0,0.0,5.0,6.0,0.0,118.0,119.0
+768,Virginia,P20002671,Johnson; Gary,13.0,269.0,0.0,0.0,0.0,0.0,8.0,8.0
+769,Virginia,P60022654,McMullin; Evan,13.0,269.0,0.0,0.0,0.0,0.0,4.0,4.0
+770,Virginia,n/a,All Others,13.0,269.0,0.0,0.0,0.0,0.0,2.0,2.0
+771,Virginia,P20003984,Stein; Jill,13.0,269.0,0.0,0.0,0.0,0.0,2.0,2.0
+772,Washington,P00003392,Clinton; Hillary,12.0,227.0,12.0,7.0,6.0,227.0,120.0,119.0
+773,Washington,P80001571,Trump; Donald J.,12.0,227.0,0.0,4.0,5.0,0.0,83.0,84.0
+774,Washington,P20002671,Johnson; Gary,12.0,227.0,0.0,1.0,1.0,0.0,11.0,11.0
+775,Washington,n/a,Scattered,12.0,227.0,0.0,0.0,0.0,0.0,8.0,8.0
+776,Washington,P20003984,Stein; Jill,12.0,227.0,0.0,0.0,0.0,0.0,4.0,4.0
+777,Washington,P60021102,Castle; Darrell L.,12.0,227.0,0.0,0.0,0.0,0.0,1.0,1.0
+778,Washington,P80005473,Kennedy; Alyson,12.0,227.0,0.0,0.0,0.0,0.0,0.0,0.0
+779,Washington,P80005572,La Riva; Gloria Estela,12.0,227.0,0.0,0.0,0.0,0.0,0.0,0.0
+780,West Virginia,P80001571,Trump; Donald J.,5.0,63.0,5.0,4.0,4.0,63.0,44.0,43.0
+781,West Virginia,P00003392,Clinton; Hillary,5.0,63.0,0.0,1.0,1.0,0.0,16.0,17.0
+782,West Virginia,P20002671,Johnson; Gary,5.0,63.0,0.0,0.0,0.0,0.0,2.0,2.0
+783,West Virginia,P20003984,Stein; Jill,5.0,63.0,0.0,0.0,0.0,0.0,1.0,1.0
+784,West Virginia,P60021102,Castle; Darrell L.,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+785,West Virginia,P60022654,McMullin; Evan,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+786,West Virginia,P60021185,Moreau; Kevin,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+787,West Virginia,P60018769,Smith; William Roger,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+788,West Virginia,P20005260,Hoefling; Tom,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+789,West Virginia,P60015351,Basiago; Andrew D.,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+790,West Virginia,P20004511,Kotlikoff; Laurence,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+791,West Virginia,P60020757,Buchanan; Robert L.,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+792,West Virginia,P60016342,De La Fuente; Rocky,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+793,West Virginia,n/a,Limbaugh; David,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+794,West Virginia,P80005572,Lariva; Gloria,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+795,West Virginia,P60004868,Perry; Darryl W.,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+796,West Virginia,P60016623,Smith; Mike,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+797,West Virginia,P20004677,White; Jerry,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+798,West Virginia,n/a,Duncan; Richard,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+799,West Virginia,n/a,Hartnell; Ben,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+800,West Virginia,P60018249,Maldonado; Joseph,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+801,West Virginia,n/a,Williams; Mitchell,5.0,63.0,0.0,0.0,0.0,0.0,0.0,0.0
+802,Wisconsin,P80001571,Trump; Donald J.,10.0,191.0,10.0,6.0,5.0,191.0,91.0,90.0
+803,Wisconsin,P00003392,Clinton; Hillary,10.0,191.0,0.0,4.0,5.0,0.0,88.0,89.0
+804,Wisconsin,P20002671,Johnson; Gary,10.0,191.0,0.0,0.0,0.0,0.0,7.0,7.0
+805,Wisconsin,n/a,Scattered,10.0,191.0,0.0,0.0,0.0,0.0,1.0,1.0
+806,Wisconsin,P60021102,Castle; Darrell L.,10.0,191.0,0.0,0.0,0.0,0.0,1.0,1.0
+807,Wisconsin,P60022654,McMullin; Evan,10.0,191.0,0.0,0.0,0.0,0.0,1.0,1.0
+808,Wisconsin,P20003984,Stein; Jill,10.0,191.0,0.0,0.0,0.0,0.0,2.0,2.0
+809,Wisconsin,P60004405,Moorehead; Monica,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+810,Wisconsin,P60016342,De La Fuente; Rocky Roque,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+811,Wisconsin,P60022787,Maturen; Michael A.,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+812,Wisconsin,P20005260,Hoefling; Tom,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+813,Wisconsin,P60009917,Keniston; Chris,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+814,Wisconsin,P60005303,Fox; Cherunda,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+815,Wisconsin,P60018017,Soltysik; Emidio,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+816,Wisconsin,P20004511,Kotlikoff; Laurence,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+817,Wisconsin,P60018249,Maldonado; Joseph,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+818,Wisconsin,n/a,Schoenke; Marshall,10.0,191.0,0.0,0.0,0.0,0.0,0.0,0.0
+819,Wyoming,P80001571,Trump; Donald J.,3.0,20.0,3.0,3.0,2.0,20.0,14.0,14.0
+820,Wyoming,P00003392,Clinton; Hillary,3.0,20.0,0.0,0.0,1.0,0.0,4.0,4.0
+821,Wyoming,P20002671,Johnson; Gary,3.0,20.0,0.0,0.0,0.0,0.0,1.0,1.0
+822,Wyoming,n/a,Scattered,3.0,20.0,0.0,0.0,0.0,0.0,1.0,1.0
+823,Wyoming,P20003984,Stein; Jill,3.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0
+824,Wyoming,P60021102,Castle; Darrell,3.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0
+825,Wyoming,P60016342,"""""""De La Fuente; """"""""Rocky"""""""" Roque""""""",3.0,20.0,0.0,0.0,0.0,0.0,0.0,0.0
