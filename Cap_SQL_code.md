@@ -926,14 +926,62 @@ WHERE
 ```
 ```SQL
 
+-- Total2008
+
+CREATE TABLE Total2008
+AS
+SELECT STATE, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
+CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapped_Num_State_EC_Votes,
+CapEC_Standard AS Capped_EC_Standard,
+CAST((CapEC_NE_CanVote_ARem + SenNum) AS REAL) AS Capped_EC_NE_Candidate_Vote, 
+CapEC_Full_CanVote_ARem AS Capped_EC_Full_Candidate_Vote, 
+UnCapEC_Standard AS UnCapped_EC_Standard,
+CAST((UnCapEC_NE_CanVote_ARem + SenNum) AS REAL) AS UnCapped_EC_NE_Candidate_Vote,
+UnCapEC_Full_CanVote_ARem AS UnCapped_EC_Full_Candidate_Vote
+FROM After_AddSen_2008
 
 
+-- Total2012
 
+CREATE TABLE Total2012
+AS
+SELECT STATE, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
+CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapped_Num_State_EC_Votes,
+CapEC_Standard AS Capped_EC_Standard,
+CAST((CapEC_NE_CanVote_ARem + SenNum) AS REAL) AS Capped_EC_NE_Candidate_Vote, 
+CapEC_Full_CanVote_ARem AS Capped_EC_Full_Candidate_Vote, 
+UnCapEC_Standard AS UnCapped_EC_Standard,
+CAST((UnCapEC_NE_CanVote_ARem + SenNum) AS REAL) AS UnCapped_EC_NE_Candidate_Vote,
+UnCapEC_Full_CanVote_ARem AS UnCapped_EC_Full_Candidate_Vote
+FROM After_AddSen_2012
 
+-- Total2016
 
+CREATE TABLE Total2016
+AS
+SELECT STATE, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
+CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapped_Num_State_EC_Votes,
+CapEC_Standard AS Capped_EC_Standard,
+CAST((CapEC_NE_CanVote_ARem + SenNum) AS REAL) AS Capped_EC_NE_Candidate_Vote, 
+CapEC_Full_CanVote_ARem AS Capped_EC_Full_Candidate_Vote, 
+UnCapEC_Standard AS UnCapped_EC_Standard,
+CAST((UnCapEC_NE_CanVote_ARem + SenNum) AS REAL) AS UnCapped_EC_NE_Candidate_Vote,
+UnCapEC_Full_CanVote_ARem AS UnCapped_EC_Full_Candidate_Vote
+FROM After_AddSen_2016
 
+-- Total2020
 
-
+CREATE TABLE Total2020
+AS
+SELECT STATE, Candidate_Name, CAST((Num_Reps_Capped + 2) AS REAL) AS Capped_Num_State_EC_Votes,
+CAST((Num_Reps_Uncapped + 2) AS REAL) AS UnCapped_Num_State_EC_Votes,
+CapEC_Standard AS Capped_EC_Standard,
+CAST((CapEC_NE_CanVote_ARem + SenNum) AS REAL) AS Capped_EC_NE_Candidate_Vote, 
+CapEC_Full_CanVote_ARem AS Capped_EC_Full_Candidate_Vote, 
+UnCapEC_Standard AS UnCapped_EC_Standard,
+CAST((UnCapEC_NE_CanVote_ARem + SenNum) AS REAL) AS UnCapped_EC_NE_Candidate_Vote,
+UnCapEC_Full_CanVote_ARem AS UnCapped_EC_Full_Candidate_Vote
+FROM After_AddSen_2020
 
 
 
