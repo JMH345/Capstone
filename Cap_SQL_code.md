@@ -290,7 +290,7 @@ SELECT
 STATE,
 Candidate_Name,
 CapEC_NE_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_NE_CanRemainder DESC) AS REAL) AS CapEC_NE_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS CapEC_NE_CanRemain_Rank,
 CapEC_NE_CanRemVote
 FROM LG_Remain2008
 )
@@ -311,7 +311,7 @@ SELECT
 STATE,
 Candidate_Name,
 CapEC_NE_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_NE_CanRemainder DESC) AS REAL) AS CapEC_NE_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS CapEC_NE_CanRemain_Rank,
 CapEC_NE_CanRemVote
 FROM LG_Remain2012
 )
@@ -332,7 +332,7 @@ SELECT
 STATE,
 Candidate_Name,
 CapEC_NE_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_NE_CanRemainder DESC) AS REAL) AS CapEC_NE_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS CapEC_NE_CanRemain_Rank,
 CapEC_NE_CanRemVote
 FROM LG_Remain2016
 )
@@ -353,7 +353,7 @@ SELECT
 STATE,
 Candidate_Name,
 CapEC_NE_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_NE_CanRemainder DESC) AS REAL) AS CapEC_NE_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS CapEC_NE_CanRemain_Rank,
 CapEC_NE_CanRemVote
 FROM LG_Remain2020
 )
@@ -378,7 +378,7 @@ SELECT
 STATE,
 Candidate_Name,
 CapEC_Full_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_Full_CanRemainder DESC) AS REAL) AS CapEC_Full_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_Full_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS CapEC_Full_CanRemain_Rank,
 CapEC_Full_CanRemVote
 FROM LG_Remain2008
 )
@@ -400,7 +400,7 @@ SELECT
 STATE,
 Candidate_Name,
 CapEC_Full_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_Full_CanRemainder DESC) AS REAL) AS CapEC_Full_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_Full_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS CapEC_Full_CanRemain_Rank,
 CapEC_Full_CanRemVote
 FROM LG_Remain2012
 )
@@ -421,7 +421,7 @@ SELECT
 STATE,
 Candidate_Name,
 CapEC_Full_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_Full_CanRemainder DESC) AS REAL) AS CapEC_Full_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_Full_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS CapEC_Full_CanRemain_Rank,
 CapEC_Full_CanRemVote
 FROM LG_Remain2016
 )
@@ -442,7 +442,7 @@ SELECT
 STATE,
 Candidate_Name,
 CapEC_Full_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_Full_CanRemainder DESC) AS REAL) AS CapEC_Full_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY CapEC_Full_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS CapEC_Full_CanRemain_Rank,
 CapEC_Full_CanRemVote
 FROM LG_Remain2020
 )
@@ -467,7 +467,7 @@ SELECT
 STATE,
 Candidate_Name,
 UnCapEC_NE_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
 UnCapEC_NE_CanRemVote
 FROM LG_Remain2008
 )
@@ -488,7 +488,7 @@ SELECT
 STATE,
 Candidate_Name,
 UnCapEC_NE_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
 UnCapEC_NE_CanRemVote
 FROM LG_Remain2012
 )
@@ -509,7 +509,7 @@ SELECT
 STATE,
 Candidate_Name,
 UnCapEC_NE_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
 UnCapEC_NE_CanRemVote
 FROM LG_Remain2016
 )
@@ -530,7 +530,7 @@ SELECT
 STATE,
 Candidate_Name,
 UnCapEC_NE_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
 UnCapEC_NE_CanRemVote
 FROM LG_Remain2020
 )
@@ -555,7 +555,7 @@ SELECT
 STATE,
 Candidate_Name,
 UnCapEC_Full_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_Full_CanRemainder DESC) AS REAL) AS UnCapEC_Full_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_Full_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_Full_CanRemain_Rank,
 UnCapEC_Full_CanRemVote
 FROM LG_Remain2008
 )
@@ -576,7 +576,7 @@ SELECT
 STATE,
 Candidate_Name,
 UnCapEC_Full_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_Full_CanRemainder DESC) AS REAL) AS UnCapEC_Full_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_Full_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_Full_CanRemain_Rank,
 UnCapEC_Full_CanRemVote
 FROM LG_Remain2012
 )
@@ -597,7 +597,7 @@ SELECT
 STATE,
 Candidate_Name,
 UnCapEC_Full_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_Full_CanRemainder DESC) AS REAL) AS UnCapEC_Full_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_Full_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_Full_CanRemain_Rank,
 UnCapEC_Full_CanRemVote
 FROM LG_Remain2016
 )
@@ -618,7 +618,7 @@ SELECT
 STATE,
 Candidate_Name,
 UnCapEC_Full_CanRemainder,
-CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_Full_CanRemainder DESC) AS REAL) AS UnCapEC_Full_CanRemain_Rank,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_Full_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_Full_CanRemain_Rank,
 UnCapEC_Full_CanRemVote
 FROM LG_Remain2020
 )

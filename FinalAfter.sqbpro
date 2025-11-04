@@ -33,8 +33,19 @@ END AS HOPE
 FROM Remainder2008
 INNER JOIN HELP
 ON Remainder2008.STATE = HELP.STATE
-</sql><sql name="SQL 1 (2)*">SELECT FEC_ID, Candidate_Name, SUM(UnCapped_EC_Full_Candidate_Vote)/10403 as ECFULLsum, SUM(UnCapped_EC_NE_Candidate_Vote)/10403 AS ECNEsum
-FROM Total2020
-GROUP BY FEC_ID
-ORDER BY Candidate_Votes DESC
-</sql><current_tab id="2"/></tab_sql></sqlb_project>
+</sql><sql name="SQL 1 (2)">WITH Practice AS (
+SELECT
+STATE,
+Candidate_Name,
+UnCapEC_NE_CanRemainder,
+CAST(ROW_NUMBER() OVER (PARTITION BY STATE ORDER BY UnCapEC_NE_CanRemainder DESC, Candidate_Votes DESC) AS REAL) AS UnCapEC_NE_CanRemain_Rank,
+UnCapEC_NE_CanRemVote
+FROM LG_Remain2016
+)
+SELECT *,
+CASE
+WHEN Practice.UnCapEC_NE_CanRemain_Rank &lt;= Practice.UnCapEC_NE_CanRemVote
+THEN 1
+ELSE 0
+END AS Adding_UnCapEC_NE_Remainder
+FROM Practice</sql><current_tab id="2"/></tab_sql></sqlb_project>
