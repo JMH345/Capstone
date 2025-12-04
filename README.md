@@ -6,7 +6,7 @@
 Comparing Electoral Systems for U.S. Presidential Elections
 
 ### Data:
-[Description of the dataset used in your project]  
+Original sets from the FEC and U.S. Census Bureau are located in Original_files folder
 
 ### Methods:
 [Description of the methods and techniques used in your project]  
